@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 357,
-            "y": 102,
+            "x": 210,
+            "y": 81,
             "uniqueID": 715277,
             "ioValues": [],
             "topLevel": false,
@@ -23,8 +23,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Frame",
-            "x": 372,
-            "y": 183,
+            "x": 216,
+            "y": 158,
             "uniqueID": 277732,
             "ioValues": [],
             "topLevel": false,
@@ -43,8 +43,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 378,
-            "y": 263,
+            "x": 226,
+            "y": 252,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -70,46 +70,37 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Maslow 4 Spool2",
-                    "x": 121,
-                    "y": 94,
-                    "uniqueID": 459081,
-                    "projectID": "229143779",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Maslow 4 Metal Arm Spacer",
-                    "x": 122,
-                    "y": 183,
-                    "uniqueID": 774716,
-                    "projectID": "229145990",
-                    "ioValues": []
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Drive System",
-                    "x": 357,
-                    "y": 102,
+                    "x": 210,
+                    "y": 81,
                     "uniqueID": 715277,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Metal Frame",
-                    "x": 372,
-                    "y": 183,
+                    "x": 216,
+                    "y": 158,
                     "uniqueID": 277732,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Encoder System",
-                    "x": 378,
-                    "y": 263,
+                    "x": 226,
+                    "y": 252,
                     "uniqueID": 395617,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 532,
+                    "y": 125,
+                    "uniqueID": 721398,
+                    "ioValues": [],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
