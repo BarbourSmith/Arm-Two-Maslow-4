@@ -2,6 +2,39 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Cable",
+            "x": 211,
+            "y": 269,
+            "uniqueID": 288712,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 345,
+                    "y": 214,
+                    "uniqueID": 197994,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Drive System",
             "x": 211,
             "y": 86,
@@ -21,8 +54,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "GT2 Belt Aproximation ",
-                    "x": 211,
-                    "y": 161,
+                    "x": 200,
+                    "y": 124,
                     "uniqueID": 938298,
                     "projectID": "229325783",
                     "ioValues": [
@@ -43,17 +76,25 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "GT2 Pulley 20tooth",
-                    "x": 213,
-                    "y": 251,
+                    "x": 205,
+                    "y": 191,
                     "uniqueID": 687315,
                     "projectID": "229327101",
                     "ioValues": []
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Cable",
+                    "x": 211,
+                    "y": 269,
+                    "uniqueID": 288712,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 413,
-                    "y": 234,
+                    "x": 385,
+                    "y": 166,
                     "uniqueID": 652571,
                     "ioValues": [
                         {
@@ -73,8 +114,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 596,
-                    "y": 239,
+                    "x": 572,
+                    "y": 133,
                     "uniqueID": 970276,
                     "ioValues": [
                         {
@@ -94,8 +135,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 711,
-                    "y": 105,
+                    "x": 704,
+                    "y": 59,
                     "uniqueID": 914664,
                     "ioValues": [
                         {
