@@ -2,6 +2,66 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Drive System",
+            "x": 357,
+            "y": 102,
+            "uniqueID": 715277,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Metal Frame",
+            "x": 372,
+            "y": 183,
+            "uniqueID": 277732,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Encoder System",
+            "x": 378,
+            "y": 263,
+            "uniqueID": 395617,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Arm Two Maslow 4",
             "x": 0,
             "y": 0,
@@ -9,6 +69,48 @@
             "ioValues": [],
             "topLevel": true,
             "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow 4 Spool2",
+                    "x": 121,
+                    "y": 94,
+                    "uniqueID": 459081,
+                    "projectID": "229143779",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow 4 Metal Arm Spacer",
+                    "x": 122,
+                    "y": 183,
+                    "uniqueID": 774716,
+                    "projectID": "229145990",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Drive System",
+                    "x": 357,
+                    "y": 102,
+                    "uniqueID": 715277,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Metal Frame",
+                    "x": 372,
+                    "y": 183,
+                    "uniqueID": 277732,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Encoder System",
+                    "x": 378,
+                    "y": 263,
+                    "uniqueID": 395617,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
