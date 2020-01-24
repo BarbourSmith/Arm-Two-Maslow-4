@@ -46,3 +46,9 @@ Readme text here
 ## Encoder System
 
 
+## Bearings and Roller Shaft
+
+
+## Roller
+
+

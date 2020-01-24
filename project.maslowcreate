@@ -244,13 +244,27 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Encoder System",
-            "x": 226,
-            "y": 252,
-            "uniqueID": 395617,
+            "name": "Bearings and Roller Shaft",
+            "x": 375,
+            "y": 110,
+            "uniqueID": 414662,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller",
+                    "x": 382,
+                    "y": 119,
+                    "uniqueID": 140321,
+                    "projectID": "197579630",
+                    "ioValues": [
+                        {
+                            "name": "Center Length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -259,7 +273,49 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 140321
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Encoder System",
+            "x": 226,
+            "y": 252,
+            "uniqueID": 395617,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "Bearings and Roller Shaft",
+                    "x": 375,
+                    "y": 110,
+                    "uniqueID": 414662,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 414662
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
