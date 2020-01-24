@@ -10,6 +10,58 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow 4 Spool2",
+                    "x": 194,
+                    "y": 70,
+                    "uniqueID": 761757,
+                    "projectID": "229143779",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "GT2 Belt Aproximation ",
+                    "x": 211,
+                    "y": 161,
+                    "uniqueID": 938298,
+                    "projectID": "229325783",
+                    "ioValues": [
+                        {
+                            "name": "Dist Between Centers",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Sprocket One Size",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Sprocket 2 Size",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 781,
+                    "y": 117,
+                    "uniqueID": 308954,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 3.125
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -17,7 +69,21 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 761757,
+                    "ap2ID": 308954
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 308954
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -179,6 +245,10 @@
                         {
                             "name": "3D shape 1",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -192,6 +262,13 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 715277,
+                    "ap2ID": 721398
+                },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 1",
