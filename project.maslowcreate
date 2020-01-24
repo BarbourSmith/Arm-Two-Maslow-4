@@ -411,17 +411,8 @@
                 },
                 {
                     "atomType": "GitHubMolecule",
-                    "name": "Skateboard Bearing",
-                    "x": 257,
-                    "y": 137,
-                    "uniqueID": 235904,
-                    "projectID": "197579076",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
                     "name": "Roller",
-                    "x": 286,
+                    "x": 267,
                     "y": 58,
                     "uniqueID": 140321,
                     "projectID": "197579630",
@@ -431,6 +422,15 @@
                             "ioValue": 8.8
                         }
                     ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Skateboard Bearing",
+                    "x": 257,
+                    "y": 137,
+                    "uniqueID": 235904,
+                    "projectID": "197579076",
+                    "ioValues": []
                 },
                 {
                     "atomType": "Equation",
@@ -445,6 +445,27 @@
                         }
                     ],
                     "currentEquation": "7+X"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 509,
+                    "y": 44,
+                    "uniqueID": 351114,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
@@ -468,10 +489,31 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 679,
+                    "y": 92,
+                    "uniqueID": 911605,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 22.8
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 687,
-                    "y": 145,
+                    "x": 773,
+                    "y": 199,
                     "uniqueID": 752881,
                     "ioValues": [
                         {
@@ -483,7 +525,7 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 3",
+                            "name": "3D shape 4",
                             "ioValue": 10
                         }
                     ],
@@ -516,6 +558,13 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
+                    "ap1ID": 140321,
+                    "ap2ID": 351114
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 235904,
                     "ap2ID": 731723
                 },
@@ -527,13 +576,6 @@
                     "ap2ID": 752881
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 140321,
-                    "ap2ID": 752881
-                },
-                {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
                     "ap2Primary": false,
@@ -542,9 +584,23 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 351114,
+                    "ap2ID": 911605
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 731723,
+                    "ap2ID": 752881
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 911605,
                     "ap2ID": 752881
                 },
                 {
@@ -582,7 +638,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 64
+                            "ioValue": 65
                         },
                         {
                             "name": "yDist",
