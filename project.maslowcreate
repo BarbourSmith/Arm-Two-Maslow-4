@@ -559,8 +559,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 226,
-            "y": 252,
+            "x": 221,
+            "y": 253,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -582,11 +582,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 68
+                            "ioValue": 64
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 5
+                            "ioValue": 6.25
                         },
                         {
                             "name": "zDist",
@@ -647,8 +647,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Encoder System",
-                    "x": 226,
-                    "y": 252,
+                    "x": 221,
+                    "y": 253,
                     "uniqueID": 395617,
                     "ioValues": []
                 },
