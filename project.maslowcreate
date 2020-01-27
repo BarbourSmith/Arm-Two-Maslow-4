@@ -117,7 +117,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 12
+                            "ioValue": 13
                         }
                     ]
                 },
@@ -679,8 +679,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 221,
-            "y": 253,
+            "x": 216,
+            "y": 246,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -700,6 +700,19 @@
                     "y": 158,
                     "uniqueID": 116302,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 389,
+                    "y": 227,
+                    "uniqueID": 711482,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Filling"
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
@@ -730,11 +743,11 @@
                     "uniqueID": 513405,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 4",
                             "ioValue": 10
                         }
                     ],
@@ -758,14 +771,21 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 116302,
+                    "ap2ID": 711482
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 711482,
                     "ap2ID": 513405
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 4",
                     "ap2Primary": false,
                     "ap1ID": 530196,
                     "ap2ID": 513405
@@ -807,8 +827,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Encoder System",
-                    "x": 221,
-                    "y": 253,
+                    "x": 216,
+                    "y": 246,
                     "uniqueID": 395617,
                     "ioValues": []
                 },
@@ -833,6 +853,27 @@
                         }
                     ],
                     "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 768,
+                    "y": 46,
+                    "uniqueID": 504955,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Filling"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 921,
+                    "y": 52,
+                    "uniqueID": 957740,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -869,6 +910,20 @@
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 721398
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 721398,
+                    "ap2ID": 504955
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 504955,
+                    "ap2ID": 957740
                 }
             ],
             "fileTypeVersion": 1
