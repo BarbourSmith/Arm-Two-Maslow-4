@@ -312,11 +312,24 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "M4 Locknut",
-                    "x": 87,
-                    "y": 226,
+                    "x": 96,
+                    "y": 165,
                     "uniqueID": 994266,
                     "projectID": "201057537",
                     "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 111,
+                    "y": 270,
+                    "uniqueID": 940871,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 9
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rotate",
@@ -342,8 +355,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 269,
-                    "y": 246,
+                    "x": 323,
+                    "y": 166,
                     "uniqueID": 415116,
                     "ioValues": [
                         {
@@ -356,15 +369,58 @@
                         },
                         {
                             "name": "zDist",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 288,
+                    "y": 254,
+                    "uniqueID": 656282,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 436,
+                    "y": 228,
+                    "uniqueID": 262154,
+                    "ioValues": [],
+                    "selectedColorIndex": "12"
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 582,
+                    "y": 198,
+                    "uniqueID": 103155,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
                             "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 20
                         }
                     ]
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 415,
-                    "y": 198,
+                    "x": 665,
+                    "y": 87,
                     "uniqueID": 353490,
                     "ioValues": [
                         {
@@ -372,7 +428,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 5",
                             "ioValue": 10
                         }
                     ],
@@ -465,15 +525,8 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 482782,
-                    "ap2ID": 222871
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 482782,
-                    "ap2ID": 408747
+                    "ap1ID": 940871,
+                    "ap2ID": 656282
                 },
                 {
                     "ap1Name": "geometry",
@@ -484,10 +537,45 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 5",
                     "ap2Primary": false,
                     "ap1ID": 415116,
                     "ap2ID": 353490
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 656282,
+                    "ap2ID": 262154
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 262154,
+                    "ap2ID": 103155
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 103155,
+                    "ap2ID": 353490
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 353490,
+                    "ap2ID": 222871
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 353490,
+                    "ap2ID": 408747
                 },
                 {
                     "ap1Name": "geometry",
@@ -515,8 +603,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Frame",
-            "x": 132,
-            "y": 138,
+            "x": 131,
+            "y": 142,
             "uniqueID": 277732,
             "ioValues": [],
             "topLevel": false,
@@ -1079,8 +1167,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Metal Frame",
-                    "x": 132,
-                    "y": 138,
+                    "x": 131,
+                    "y": 142,
                     "uniqueID": 277732,
                     "ioValues": []
                 },
