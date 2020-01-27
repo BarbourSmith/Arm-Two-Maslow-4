@@ -294,8 +294,8 @@
         {
             "atomType": "Molecule",
             "name": "Hardware",
-            "x": 165,
-            "y": 239,
+            "x": 169,
+            "y": 243,
             "uniqueID": 495582,
             "ioValues": [],
             "topLevel": false,
@@ -317,20 +317,16 @@
                     "uniqueID": 222871,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 80
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 5
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -349,6 +345,12 @@
                     "ap2Primary": true,
                     "ap1ID": 259310,
                     "ap2ID": 222871
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 222871
                 }
             ],
             "fileTypeVersion": 1
@@ -374,10 +376,27 @@
                 {
                     "atomType": "Molecule",
                     "name": "Hardware",
-                    "x": 165,
-                    "y": 239,
+                    "x": 169,
+                    "y": 243,
                     "uniqueID": 495582,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Tag",
+                    "name": "Add Tag",
+                    "x": 291,
+                    "y": 167,
+                    "uniqueID": 874474,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "tag",
+                            "ioValue": "Metal Plate"
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
@@ -414,6 +433,10 @@
                         {
                             "name": "3D shape 3",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -439,6 +462,14 @@
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 156353,
+                    "ap2ID": 493777
+                },
+                null,
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 495582,
                     "ap2ID": 493777
                 },
                 {
