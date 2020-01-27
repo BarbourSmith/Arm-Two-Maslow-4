@@ -319,15 +319,19 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
+                    "atomType": "RegularPolygon",
+                    "name": "RegularPolygon",
                     "x": 111,
-                    "y": 270,
-                    "uniqueID": 940871,
+                    "y": 272,
+                    "uniqueID": 148507,
                     "ioValues": [
                         {
+                            "name": "number of sides",
+                            "ioValue": 6
+                        },
+                        {
                             "name": "diameter",
-                            "ioValue": 9
+                            "ioValue": 8.75
                         }
                     ]
                 },
@@ -353,6 +357,19 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 286,
+                    "y": 220,
+                    "uniqueID": 656282,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 323,
@@ -370,19 +387,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 20
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 288,
-                    "y": 254,
-                    "uniqueID": 656282,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -441,8 +445,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 855,
-                    "y": 75,
+                    "x": 910,
+                    "y": 43,
                     "uniqueID": 222871,
                     "ioValues": [
                         {
@@ -463,7 +467,7 @@
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 920,
-                    "y": 201,
+                    "y": 115,
                     "uniqueID": 408747,
                     "ioValues": [
                         {
@@ -473,6 +477,48 @@
                         {
                             "name": "yDist",
                             "ioValue": -5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 918,
+                    "y": 178,
+                    "uniqueID": 166608,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 57
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 920,
+                    "y": 252,
+                    "uniqueID": 953238,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 57
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -20
                         },
                         {
                             "name": "zDist",
@@ -493,6 +539,14 @@
                         },
                         {
                             "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
                             "ioValue": 10
                         }
                     ],
@@ -525,7 +579,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 940871,
+                    "ap1ID": 148507,
                     "ap2ID": 656282
                 },
                 {
@@ -537,17 +591,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": 415116,
-                    "ap2ID": 353490
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 656282,
                     "ap2ID": 262154
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 415116,
+                    "ap2ID": 353490
                 },
                 {
                     "ap1Name": "geometry",
@@ -579,6 +633,20 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 353490,
+                    "ap2ID": 166608
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 353490,
+                    "ap2ID": 953238
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 222871,
@@ -593,6 +661,20 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 166608,
+                    "ap2ID": 227657
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 953238,
+                    "ap2ID": 227657
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 227657
@@ -603,8 +685,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Frame",
-            "x": 131,
-            "y": 142,
+            "x": 126,
+            "y": 144,
             "uniqueID": 277732,
             "ioValues": [],
             "topLevel": false,
@@ -1167,8 +1249,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Metal Frame",
-                    "x": 131,
-                    "y": 142,
+                    "x": 126,
+                    "y": 144,
                     "uniqueID": 277732,
                     "ioValues": []
                 },
