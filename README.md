@@ -55,13 +55,10 @@ undefined
 ## Hardware
 
 
-## M4x20 Bolt
+## 45mm M4 Bolt
 
 
 ## M4 Locknut
-
-
-## 45mm M4 Bolt
 
 
 ## Encoder System

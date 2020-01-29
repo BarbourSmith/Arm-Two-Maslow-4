@@ -302,11 +302,11 @@
             "allAtoms": [
                 {
                     "atomType": "GitHubMolecule",
-                    "name": "M4x20 Bolt",
-                    "x": 82,
-                    "y": 87,
-                    "uniqueID": 259310,
-                    "projectID": "198850770",
+                    "name": "45mm M4 Bolt",
+                    "x": 101,
+                    "y": 71,
+                    "uniqueID": 580339,
+                    "projectID": "202513625",
                     "ioValues": []
                 },
                 {
@@ -317,23 +317,6 @@
                     "uniqueID": 994266,
                     "projectID": "201057537",
                     "ioValues": []
-                },
-                {
-                    "atomType": "RegularPolygon",
-                    "name": "RegularPolygon",
-                    "x": 111,
-                    "y": 272,
-                    "uniqueID": 148507,
-                    "ioValues": [
-                        {
-                            "name": "number of sides",
-                            "ioValue": 6
-                        },
-                        {
-                            "name": "diameter",
-                            "ioValue": 8.75
-                        }
-                    ]
                 },
                 {
                     "atomType": "Rotate",
@@ -357,23 +340,10 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 286,
-                    "y": 220,
-                    "uniqueID": 656282,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 323,
-                    "y": 166,
+                    "x": 350,
+                    "y": 146,
                     "uniqueID": 415116,
                     "ioValues": [
                         {
@@ -386,48 +356,9 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 20
+                            "ioValue": 29
                         }
                     ]
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 436,
-                    "y": 228,
-                    "uniqueID": 262154,
-                    "ioValues": [],
-                    "selectedColorIndex": "12"
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 582,
-                    "y": 198,
-                    "uniqueID": 103155,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 20
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "45mm M4 Bolt",
-                    "x": 568,
-                    "y": 276,
-                    "uniqueID": 580339,
-                    "projectID": "202513625",
-                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -438,10 +369,6 @@
                     "ioValues": [
                         {
                             "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
                             "ioValue": 10
                         },
                         {
@@ -574,7 +501,7 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 259310,
+                    "ap1ID": 580339,
                     "ap2ID": 482782
                 },
                 {
@@ -586,13 +513,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 148507,
-                    "ap2ID": 656282
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 482782,
@@ -600,30 +520,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 656282,
-                    "ap2ID": 262154
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 5",
                     "ap2Primary": false,
                     "ap1ID": 415116,
-                    "ap2ID": 353490
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 262154,
-                    "ap2ID": 103155
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 103155,
                     "ap2ID": 353490
                 },
                 {
@@ -1379,7 +1278,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 24
+                            "ioValue": 25
                         }
                     ]
                 },
