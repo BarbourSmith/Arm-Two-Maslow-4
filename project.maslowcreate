@@ -953,8 +953,8 @@
         {
             "atomType": "Molecule",
             "name": "Stand In Encoder Board",
-            "x": 58,
-            "y": 117,
+            "x": 52,
+            "y": 116,
             "uniqueID": 413515,
             "ioValues": [],
             "topLevel": false,
@@ -962,13 +962,13 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 181,
-                    "y": 81,
+                    "x": 176,
+                    "y": 91,
                     "uniqueID": 321742,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 40
+                            "ioValue": 30
                         },
                         {
                             "name": "y length",
@@ -1005,8 +1005,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 373,
-                    "y": 80,
+                    "x": 377,
+                    "y": 86,
                     "uniqueID": 950888,
                     "ioValues": [
                         {
@@ -1070,17 +1070,17 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 622,
-                    "y": 270,
+                    "x": 616,
+                    "y": 272,
                     "uniqueID": 250193,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 5
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 20
+                            "ioValue": 18
                         },
                         {
                             "name": "zDist",
@@ -1091,17 +1091,17 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 773,
-                    "y": 147,
+                    "x": 780,
+                    "y": 152,
                     "uniqueID": 737791,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 5
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 10
+                            "ioValue": 6
                         },
                         {
                             "name": "zDist",
@@ -1518,8 +1518,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Stand In Encoder Board",
-                    "x": 58,
-                    "y": 117,
+                    "x": 52,
+                    "y": 116,
                     "uniqueID": 413515,
                     "ioValues": []
                 },
