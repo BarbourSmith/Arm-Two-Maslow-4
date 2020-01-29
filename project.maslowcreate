@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 131,
-            "y": 68,
+            "x": 120,
+            "y": 88,
             "uniqueID": 715277,
             "ioValues": [],
             "topLevel": false,
@@ -694,8 +694,8 @@
         {
             "atomType": "Molecule",
             "name": "Metal Frame",
-            "x": 126,
-            "y": 144,
+            "x": 124,
+            "y": 172,
             "uniqueID": 277732,
             "ioValues": [],
             "topLevel": false,
@@ -1311,8 +1311,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 137,
-            "y": 215,
+            "x": 128,
+            "y": 259,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -1539,24 +1539,24 @@
                 {
                     "atomType": "Molecule",
                     "name": "Drive System",
-                    "x": 131,
-                    "y": 68,
+                    "x": 120,
+                    "y": 88,
                     "uniqueID": 715277,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Metal Frame",
-                    "x": 126,
-                    "y": 144,
+                    "x": 124,
+                    "y": 172,
                     "uniqueID": 277732,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Encoder System",
-                    "x": 137,
-                    "y": 215,
+                    "x": 128,
+                    "y": 259,
                     "uniqueID": 395617,
                     "ioValues": []
                 },
