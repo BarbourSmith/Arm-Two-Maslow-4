@@ -3,6 +3,7 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |7/16 Amsteel Blue|12|$0.20|https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8|
-|Total: |12|$0.20| |
+|JST XH 6 Connector|2|$0.21|https://www.digikey.com/product-detail/en/jst-sales-america-inc/B6B-XH-A-LF-SN/455-2271-ND/1000381|
+|Total: |14|$0.41| |
 
- 3xCOG MSRP: $0.60
+ 3xCOG MSRP: $1.23
