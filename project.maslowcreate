@@ -953,8 +953,8 @@
         {
             "atomType": "Molecule",
             "name": "Stand In Encoder Board",
-            "x": 67,
-            "y": 123,
+            "x": 58,
+            "y": 117,
             "uniqueID": 413515,
             "ioValues": [],
             "topLevel": false,
@@ -1045,7 +1045,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": -32
                         }
                     ]
                 },
@@ -1080,7 +1080,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 15
+                            "ioValue": 20
                         },
                         {
                             "name": "zDist",
@@ -1518,8 +1518,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Stand In Encoder Board",
-                    "x": 67,
-                    "y": 123,
+                    "x": 58,
+                    "y": 117,
                     "uniqueID": 413515,
                     "ioValues": []
                 },
