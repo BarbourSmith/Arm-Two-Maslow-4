@@ -1532,33 +1532,33 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 241,
-                    "y": 107,
-                    "uniqueID": 811177,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": -35
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Top Block",
                     "x": 81,
                     "y": 266,
                     "uniqueID": 662563,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 340,
+                    "y": 92,
+                    "uniqueID": 470785,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 25
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
@@ -1578,27 +1578,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 18
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 382,
-                    "y": 89,
-                    "uniqueID": 470785,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 25
                         }
                     ]
                 },
@@ -1710,7 +1689,7 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 413515,
-                    "ap2ID": 811177
+                    "ap2ID": 470785
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1718,13 +1697,6 @@
                     "ap2Primary": true,
                     "ap1ID": 116302,
                     "ap2ID": 711482
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 811177,
-                    "ap2ID": 470785
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1735,17 +1707,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 436678,
-                    "ap2ID": 218039
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 470785,
                     "ap2ID": 855341
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 436678,
+                    "ap2ID": 218039
                 },
                 {
                     "ap1Name": "geometry",
