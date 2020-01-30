@@ -1550,7 +1550,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 25
+                            "ioValue": 15
                         }
                     ]
                 },
