@@ -1732,32 +1732,19 @@
                     "uniqueID": 721398,
                     "ioValues": [
                         {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 3",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 4",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 640,
-                    "y": 289,
-                    "uniqueID": 947912,
-                    "ioValues": [
-                        {
-                            "name": "tag",
-                            "ioValue": "Encoder PCB"
-                        }
-                    ]
                 },
                 {
                     "atomType": "ExtractTag",
@@ -1775,6 +1762,19 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
+                    "x": 762,
+                    "y": 269,
+                    "uniqueID": 947912,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Encoder PCB"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
                     "x": 816,
                     "y": 191,
                     "uniqueID": 862069,
@@ -1786,32 +1786,11 @@
                     ]
                 },
                 {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 805,
-                    "y": 257,
-                    "uniqueID": 678254,
-                    "ioValues": [
-                        {
-                            "name": "tag",
-                            "ioValue": "Top Block"
-                        }
-                    ]
-                },
-                {
                     "atomType": "Stl",
                     "name": "Stl",
                     "x": 921,
                     "y": 52,
                     "uniqueID": 957740,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Stl",
-                    "name": "Stl",
-                    "x": 985,
-                    "y": 248,
-                    "uniqueID": 895561,
                     "ioValues": []
                 },
                 {
@@ -1825,7 +1804,7 @@
             "allConnectors": [
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
+                    "ap2Name": "3D shape 5",
                     "ap2Primary": false,
                     "ap1ID": 715277,
                     "ap2ID": 721398
@@ -1869,13 +1848,6 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 721398,
-                    "ap2ID": 678254
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 721398,
                     "ap2ID": 947912
                 },
                 {
@@ -1884,13 +1856,6 @@
                     "ap2Primary": false,
                     "ap1ID": 504955,
                     "ap2ID": 957740
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 678254,
-                    "ap2ID": 895561
                 }
             ],
             "fileTypeVersion": 1
