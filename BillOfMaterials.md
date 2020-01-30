@@ -2,6 +2,9 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|name|12|$0.20|https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8|
+|148ZZ Bearing|3|$15.54|https://www.mcmaster.com/7804k116|
+|JST XH 6 Surface Mount Connector|2|$0.40|www.example.com|
+|Total: |17|$16.14| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $48.42
