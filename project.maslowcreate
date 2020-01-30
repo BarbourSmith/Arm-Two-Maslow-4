@@ -782,7 +782,7 @@
                             "ioValue": 4.5
                         }
                     ],
-                    "currentEquation": "3.8+X"
+                    "currentEquation": "4+X"
                 },
                 {
                     "atomType": "Rotate",
@@ -822,7 +822,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 8.3
+                            "ioValue": 8.5
                         }
                     ]
                 },
