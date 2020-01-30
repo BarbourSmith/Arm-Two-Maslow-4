@@ -356,7 +356,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 30
+                            "ioValue": 20
                         }
                     ]
                 },
