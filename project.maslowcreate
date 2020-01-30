@@ -743,7 +743,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 8.8
+                            "ioValue": 4
                         }
                     ]
                 },
@@ -757,7 +757,7 @@
                     "ioValues": [
                         {
                             "name": "Center Length",
-                            "ioValue": 8.8
+                            "ioValue": 4
                         }
                     ]
                 },
@@ -779,7 +779,7 @@
                     "ioValues": [
                         {
                             "name": "X",
-                            "ioValue": 8.8
+                            "ioValue": 4
                         }
                     ],
                     "currentEquation": "7+X"
@@ -822,7 +822,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 15.8
+                            "ioValue": 11
                         }
                     ]
                 },
@@ -843,7 +843,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 22.8
+                            "ioValue": 12
                         }
                     ]
                 },
@@ -1286,10 +1286,6 @@
                     "uniqueID": 250193,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 5
                         },
@@ -1353,10 +1349,6 @@
                     "y": 175,
                     "uniqueID": 714279,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "tag",
                             "ioValue": "Encoder PCB"
@@ -1772,10 +1764,6 @@
                     "uniqueID": 470785,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -1848,10 +1836,6 @@
                     "y": 55,
                     "uniqueID": 530196,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 65
