@@ -1875,10 +1875,6 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 6",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 7",
                             "ioValue": 10
                         }
@@ -1942,13 +1938,6 @@
                     "ap2Primary": true,
                     "ap1ID": 855341,
                     "ap2ID": 530196
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 6",
-                    "ap2Primary": false,
-                    "ap1ID": 218039,
-                    "ap2ID": 513405
                 },
                 {
                     "ap1Name": "geometry",
