@@ -37,9 +37,6 @@ Readme text here
 ## Amsteel Blue 7/64ths
 
 
-undefined
-
-
 ## Metal Frame
 
 
@@ -70,16 +67,16 @@ undefined
 ## Roller
 
 
-## Skateboard Bearing
+## 148ZZ Bearing
+
+
+undefined
 
 
 ## Stand In Encoder Board
 
 
 ## JST-XH 6 Surface Mount
-
-
-undefined
 
 
 ## Board
