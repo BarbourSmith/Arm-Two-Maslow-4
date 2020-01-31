@@ -165,6 +165,20 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 975,
+                    "y": 257,
+                    "uniqueID": 683340,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 1005,
@@ -281,6 +295,13 @@
                     "ap2Primary": false,
                     "ap1ID": 408673,
                     "ap2ID": 878312
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 408673,
+                    "ap2ID": 683340
                 },
                 {
                     "ap1Name": "geometry",
@@ -743,7 +764,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 4.5
+                            "ioValue": 6.5
                         }
                     ]
                 },
@@ -757,7 +778,7 @@
                     "ioValues": [
                         {
                             "name": "Center Length",
-                            "ioValue": 4.5
+                            "ioValue": 6.5
                         }
                     ]
                 },
@@ -779,7 +800,7 @@
                     "ioValues": [
                         {
                             "name": "X",
-                            "ioValue": 4.5
+                            "ioValue": 6.5
                         }
                     ],
                     "currentEquation": "4+X"
@@ -822,7 +843,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 8.5
+                            "ioValue": 10.5
                         }
                     ]
                 },
@@ -843,7 +864,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 12.2
+                            "ioValue": 14.2
                         }
                     ]
                 },
@@ -1550,7 +1571,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 15.9
+                            "ioValue": 17.9
                         }
                     ]
                 },
