@@ -103,8 +103,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 646,
-                    "y": 252,
+                    "x": 669,
+                    "y": 196,
                     "uniqueID": 696912,
                     "ioValues": [
                         {
@@ -165,18 +165,13 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 975,
-                    "y": 257,
-                    "uniqueID": 683340,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
+                    "atomType": "GitHubMolecule",
+                    "name": "Export as JSON",
+                    "x": 915,
+                    "y": 280,
+                    "uniqueID": 167250,
+                    "projectID": "230192765",
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
@@ -277,6 +272,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "Geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 696912,
+                    "ap2ID": 167250
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 914664,
@@ -295,13 +297,6 @@
                     "ap2Primary": false,
                     "ap1ID": 408673,
                     "ap2ID": 878312
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 408673,
-                    "ap2ID": 683340
                 },
                 {
                     "ap1Name": "geometry",
