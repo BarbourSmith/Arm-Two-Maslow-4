@@ -21,8 +21,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "GT2 Belt Aproximation ",
-                    "x": 200,
-                    "y": 124,
+                    "x": 199,
+                    "y": 123,
                     "uniqueID": 938298,
                     "projectID": "229325783",
                     "ioValues": [
@@ -36,7 +36,7 @@
                         },
                         {
                             "name": "Sprocket 2 Size",
-                            "ioValue": 103
+                            "ioValue": 100
                         }
                     ]
                 },
@@ -59,11 +59,11 @@
                     "ioValues": [
                         {
                             "name": "Lengths",
-                            "ioValue": 10
+                            "ioValue": 60
                         },
                         {
                             "name": "Angle",
-                            "ioValue": 10
+                            "ioValue": -38
                         }
                     ]
                 },
@@ -118,7 +118,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 45
+                            "ioValue": 65
                         },
                         {
                             "name": "yDist",
@@ -155,8 +155,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 877,
-                    "y": 68,
+                    "x": 870,
+                    "y": 62,
                     "uniqueID": 308954,
                     "ioValues": [
                         {
@@ -1561,6 +1561,10 @@
                         {
                             "name": "3D shape 2",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -1667,6 +1671,13 @@
                     "ap2Primary": true,
                     "ap1ID": 116302,
                     "ap2ID": 711482
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 470785,
+                    "ap2ID": 855341
                 },
                 {
                     "ap1Name": "geometry",
