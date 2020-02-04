@@ -1463,6 +1463,26 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 262,
+            "y": 239,
+            "uniqueID": 834133,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Middle Block",
             "x": 73,
             "y": 234,
@@ -1477,6 +1497,14 @@
                     "y": 120,
                     "uniqueID": 887997,
                     "projectID": "236403309",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 262,
+                    "y": 239,
+                    "uniqueID": 834133,
                     "ioValues": []
                 },
                 {
