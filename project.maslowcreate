@@ -1543,7 +1543,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -10
+                            "ioValue": 10
                         },
                         {
                             "name": "zDist",
@@ -1622,6 +1622,20 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 628236,
+                    "ap2ID": 164439
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 628236,
+                    "ap2ID": 404248
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 164439,
@@ -1646,8 +1660,8 @@
         {
             "atomType": "Molecule",
             "name": "Middle Block",
-            "x": 90,
-            "y": 243,
+            "x": 92,
+            "y": 246,
             "uniqueID": 116302,
             "ioValues": [],
             "topLevel": false,
@@ -1759,8 +1773,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 128,
-            "y": 259,
+            "x": 136,
+            "y": 255,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -1784,8 +1798,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Middle Block",
-                    "x": 90,
-                    "y": 243,
+                    "x": 92,
+                    "y": 246,
                     "uniqueID": 116302,
                     "ioValues": []
                 },
@@ -2003,8 +2017,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Encoder System",
-                    "x": 128,
-                    "y": 259,
+                    "x": 136,
+                    "y": 255,
                     "uniqueID": 395617,
                     "ioValues": []
                 },
