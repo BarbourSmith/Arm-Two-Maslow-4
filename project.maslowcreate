@@ -1463,11 +1463,16 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 262,
-            "y": 239,
+            "name": "Alignment pins",
+            "x": 258,
+            "y": 228,
             "uniqueID": 834133,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Thickness",
+                    "ioValue": 14.5
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -1482,6 +1487,14 @@
                             "ioValue": 4
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Thickness",
+                    "x": 30,
+                    "y": 242,
+                    "uniqueID": 772127,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
@@ -1499,8 +1512,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 518,
-                    "y": 100,
+                    "x": 445,
+                    "y": 186,
                     "uniqueID": 628236,
                     "ioValues": [
                         {
@@ -1509,13 +1522,73 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 5
+                            "ioValue": 6.25
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 14.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 646,
+                    "y": 70,
+                    "uniqueID": 164439,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -10
                         },
                         {
                             "name": "zDist",
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 646,
+                    "y": 151,
+                    "uniqueID": 404248,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 891,
+                    "y": 138,
+                    "uniqueID": 692079,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -1534,11 +1607,38 @@
                     "ap2ID": 958490
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 772127,
+                    "ap2ID": 628236
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 958490,
                     "ap2ID": 628236
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 164439,
+                    "ap2ID": 692079
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 404248,
+                    "ap2ID": 692079
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 692079
                 }
             ],
             "fileTypeVersion": 1
@@ -1546,8 +1646,8 @@
         {
             "atomType": "Molecule",
             "name": "Middle Block",
-            "x": 73,
-            "y": 236,
+            "x": 90,
+            "y": 243,
             "uniqueID": 116302,
             "ioValues": [],
             "topLevel": false,
@@ -1581,11 +1681,34 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 262,
-                    "y": 239,
+                    "name": "Alignment pins",
+                    "x": 258,
+                    "y": 228,
                     "uniqueID": 834133,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Thickness",
+                            "ioValue": 14.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 738,
+                    "y": 166,
+                    "uniqueID": 267611,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -1604,10 +1727,31 @@
                     "ap2ID": 887997
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": 729947,
+                    "ap2ID": 834133
+                },
+                {
                     "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 887997,
+                    "ap2ID": 267611
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 834133,
+                    "ap2ID": 267611
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 887997
+                    "ap1ID": 267611
                 }
             ],
             "fileTypeVersion": 1
@@ -1640,16 +1784,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Middle Block",
-                    "x": 73,
-                    "y": 236,
+                    "x": 90,
+                    "y": 243,
                     "uniqueID": 116302,
                     "ioValues": []
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 363,
-                    "y": 154,
+                    "x": 359,
+                    "y": 153,
                     "uniqueID": 470785,
                     "ioValues": [
                         {
@@ -1662,15 +1806,15 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 19.9
+                            "ioValue": 17.625
                         }
                     ]
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 560,
-                    "y": 79,
+                    "x": 551,
+                    "y": 85,
                     "uniqueID": 855341,
                     "ioValues": [
                         {
@@ -1687,8 +1831,8 @@
                 {
                     "atomType": "Tag",
                     "name": "Add Tag",
-                    "x": 711,
-                    "y": 241,
+                    "x": 570,
+                    "y": 223,
                     "uniqueID": 711482,
                     "ioValues": [
                         {
@@ -1915,8 +2059,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 816,
-                    "y": 191,
+                    "x": 817,
+                    "y": 189,
                     "uniqueID": 862069,
                     "ioValues": [
                         {
@@ -1931,6 +2075,14 @@
                     "x": 921,
                     "y": 52,
                     "uniqueID": 957740,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 998,
+                    "y": 203,
+                    "uniqueID": 722718,
                     "ioValues": []
                 },
                 {
@@ -1996,6 +2148,13 @@
                     "ap2Primary": false,
                     "ap1ID": 504955,
                     "ap2ID": 957740
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 862069,
+                    "ap2ID": 722718
                 }
             ],
             "fileTypeVersion": 1
