@@ -1471,6 +1471,53 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 143,
+                    "y": 104,
+                    "uniqueID": 143765,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 313,
+                    "y": 107,
+                    "uniqueID": 958490,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 518,
+                    "y": 100,
+                    "uniqueID": 628236,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 65
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -1478,18 +1525,46 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 143765,
+                    "ap2ID": 958490
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 958490,
+                    "ap2ID": 628236
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
             "atomType": "Molecule",
             "name": "Middle Block",
             "x": 73,
-            "y": 234,
+            "y": 236,
             "uniqueID": 116302,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Constant",
+                    "name": "Thickness",
+                    "x": 43,
+                    "y": 149,
+                    "uniqueID": 729947,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 14.5
+                        }
+                    ]
+                },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Filling Block",
@@ -1497,7 +1572,12 @@
                     "y": 120,
                     "uniqueID": 887997,
                     "projectID": "236403309",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Thickness",
+                            "ioValue": 14.5
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -1516,6 +1596,13 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": 729947,
+                    "ap2ID": 887997
+                },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "number or geometry",
@@ -1554,7 +1641,7 @@
                     "atomType": "Molecule",
                     "name": "Middle Block",
                     "x": 73,
-                    "y": 234,
+                    "y": 236,
                     "uniqueID": 116302,
                     "ioValues": []
                 },
