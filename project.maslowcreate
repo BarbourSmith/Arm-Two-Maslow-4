@@ -56,7 +56,16 @@
                     "y": 264,
                     "uniqueID": 124130,
                     "projectID": "236085367",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Lengths",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Angle",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rotate",
