@@ -752,6 +752,85 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Bearing",
+            "x": 280,
+            "y": 167,
+            "uniqueID": 645723,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "148ZZ Bearing",
+                    "x": 277,
+                    "y": 93,
+                    "uniqueID": 673366,
+                    "projectID": "237130549",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 221,
+                    "y": 218,
+                    "uniqueID": 369836,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 415,
+                    "y": 191,
+                    "uniqueID": 953560,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 672,
+                    "y": 197,
+                    "uniqueID": 974149,
+                    "ioValues": [],
+                    "selectedColorIndex": "12"
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 369836,
+                    "ap2ID": 953560
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 953560,
+                    "ap2ID": 974149
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Bearings and Roller Shaft",
             "x": 71,
             "y": 83,
@@ -787,12 +866,11 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "148ZZ Bearing",
-                    "x": 288,
-                    "y": 148,
-                    "uniqueID": 944618,
-                    "projectID": "237130549",
+                    "atomType": "Molecule",
+                    "name": "Bearing",
+                    "x": 280,
+                    "y": 167,
+                    "uniqueID": 645723,
                     "ioValues": []
                 },
                 {
@@ -808,6 +886,15 @@
                         }
                     ],
                     "currentEquation": "4+X"
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "148ZZ Bearing",
+                    "x": 444,
+                    "y": 111,
+                    "uniqueID": 944618,
+                    "projectID": "237130549",
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
@@ -925,6 +1012,13 @@
                     "ap2ID": 351114
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 939494,
+                    "ap2ID": 731723
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -937,13 +1031,6 @@
                     "ap2Primary": false,
                     "ap1ID": 944618,
                     "ap2ID": 752881
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "zDist",
-                    "ap2Primary": false,
-                    "ap1ID": 939494,
-                    "ap2ID": 731723
                 },
                 {
                     "ap1Name": "geometry",
