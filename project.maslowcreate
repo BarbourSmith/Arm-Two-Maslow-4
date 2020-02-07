@@ -753,8 +753,8 @@
         {
             "atomType": "Molecule",
             "name": "Bearing",
-            "x": 280,
-            "y": 167,
+            "x": 438,
+            "y": 128,
             "uniqueID": 645723,
             "ioValues": [],
             "topLevel": false,
@@ -790,7 +790,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 4.1
                         }
                     ]
                 },
@@ -804,6 +804,24 @@
                     "selectedColorIndex": "12"
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 763,
+                    "y": 117,
+                    "uniqueID": 103504,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -812,6 +830,13 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 673366,
+                    "ap2ID": 103504
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -825,6 +850,19 @@
                     "ap2Primary": true,
                     "ap1ID": 953560,
                     "ap2ID": 974149
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 974149,
+                    "ap2ID": 103504
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 103504
                 }
             ],
             "fileTypeVersion": 1
@@ -866,14 +904,6 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Bearing",
-                    "x": 280,
-                    "y": 167,
-                    "uniqueID": 645723,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 237,
@@ -888,12 +918,11 @@
                     "currentEquation": "4+X"
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "148ZZ Bearing",
-                    "x": 444,
-                    "y": 111,
-                    "uniqueID": 944618,
-                    "projectID": "237130549",
+                    "atomType": "Molecule",
+                    "name": "Bearing",
+                    "x": 438,
+                    "y": 128,
+                    "uniqueID": 645723,
                     "ioValues": []
                 },
                 {
@@ -971,11 +1000,11 @@
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 4",
+                            "name": "3D shape 6",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 5",
+                            "name": "3D shape 7",
                             "ioValue": 10
                         }
                     ],
@@ -1022,14 +1051,14 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 944618,
+                    "ap1ID": 645723,
                     "ap2ID": 731723
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 5",
+                    "ap2Name": "3D shape 6",
                     "ap2Primary": false,
-                    "ap1ID": 944618,
+                    "ap1ID": 645723,
                     "ap2ID": 752881
                 },
                 {
@@ -1048,7 +1077,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 4",
+                    "ap2Name": "3D shape 7",
                     "ap2Primary": false,
                     "ap1ID": 911605,
                     "ap2ID": 752881
@@ -1801,10 +1830,6 @@
                     "uniqueID": 267611,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 2",
                             "ioValue": 10
                         }
@@ -1839,13 +1864,6 @@
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 887997,
-                    "ap2ID": 267611
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 834133,
                     "ap2ID": 267611
                 },
                 {
@@ -2261,5 +2279,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "1.6"
+    "circleSegmentSize": "0.1"
 }
