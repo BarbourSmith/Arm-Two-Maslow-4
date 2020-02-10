@@ -618,8 +618,8 @@
         {
             "atomType": "Molecule",
             "name": "Bolt Head Keepout",
-            "x": 325,
-            "y": 272,
+            "x": 319,
+            "y": 278,
             "uniqueID": 709750,
             "ioValues": [],
             "topLevel": false,
@@ -1065,8 +1065,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bolt Head Keepout",
-                    "x": 325,
-                    "y": 272,
+                    "x": 319,
+                    "y": 278,
                     "uniqueID": 709750,
                     "ioValues": []
                 },
