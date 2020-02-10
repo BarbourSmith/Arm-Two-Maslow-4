@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 120,
-            "y": 88,
+            "x": 88,
+            "y": 86,
             "uniqueID": 715277,
             "ioValues": [],
             "topLevel": false,
@@ -617,9 +617,42 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Bolt Head Keepout",
+            "x": 330,
+            "y": 269,
+            "uniqueID": 709750,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 274,
+                    "y": 148,
+                    "uniqueID": 653239,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Metal Frame",
-            "x": 124,
-            "y": 172,
+            "x": 88,
+            "y": 167,
             "uniqueID": 277732,
             "ioValues": [],
             "topLevel": false,
@@ -644,8 +677,8 @@
                 {
                     "atomType": "Tag",
                     "name": "Add Tag",
-                    "x": 305,
-                    "y": 150,
+                    "x": 304,
+                    "y": 159,
                     "uniqueID": 874474,
                     "ioValues": [
                         {
@@ -653,6 +686,14 @@
                             "ioValue": "Metal Plate"
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Bolt Head Keepout",
+                    "x": 330,
+                    "y": 269,
+                    "uniqueID": 709750,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -1878,8 +1919,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 136,
-            "y": 255,
+            "x": 94,
+            "y": 256,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -2106,24 +2147,24 @@
                 {
                     "atomType": "Molecule",
                     "name": "Drive System",
-                    "x": 120,
-                    "y": 88,
+                    "x": 88,
+                    "y": 86,
                     "uniqueID": 715277,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Metal Frame",
-                    "x": 124,
-                    "y": 172,
+                    "x": 88,
+                    "y": 167,
                     "uniqueID": 277732,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Encoder System",
-                    "x": 136,
-                    "y": 255,
+                    "x": 94,
+                    "y": 256,
                     "uniqueID": 395617,
                     "ioValues": []
                 },
