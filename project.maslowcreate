@@ -628,12 +628,12 @@
                     "atomType": "Constant",
                     "name": "Swing Angle",
                     "x": 26,
-                    "y": 210,
+                    "y": 211,
                     "uniqueID": 507972,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 60
                         }
                     ]
                 },
@@ -646,7 +646,7 @@
                     "ioValues": [
                         {
                             "name": "A",
-                            "ioValue": 10
+                            "ioValue": 60
                         }
                     ],
                     "currentEquation": "A/-2"
@@ -677,7 +677,7 @@
                     "ioValues": [
                         {
                             "name": "A",
-                            "ioValue": 10
+                            "ioValue": 60
                         }
                     ],
                     "currentEquation": "A/2"
@@ -685,8 +685,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 357,
-                    "y": 170,
+                    "x": 353,
+                    "y": 174,
                     "uniqueID": 440597,
                     "ioValues": [
                         {
@@ -706,7 +706,7 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 371,
+                    "x": 372,
                     "y": 244,
                     "uniqueID": 747444,
                     "ioValues": [
@@ -741,7 +741,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": -5
+                            "ioValue": -30
                         }
                     ]
                 },
@@ -775,7 +775,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 5
+                            "ioValue": 30
                         }
                     ]
                 },
@@ -825,13 +825,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 906,
-                    "y": 187,
+                    "x": 903,
+                    "y": 191,
                     "uniqueID": 480032,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": -10
                         }
                     ]
                 },
@@ -842,7 +842,7 @@
                     "y": 143,
                     "uniqueID": 272230,
                     "ioValues": [],
-                    "selectedColorIndex": 0
+                    "selectedColorIndex": "12"
                 },
                 {
                     "atomType": "Output",
@@ -1053,6 +1053,10 @@
                         {
                             "name": "3D shape 7",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 8",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -1092,6 +1096,13 @@
                     "ap2Name": "3D shape 6",
                     "ap2Primary": false,
                     "ap1ID": 874474,
+                    "ap2ID": 493777
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 8",
+                    "ap2Primary": false,
+                    "ap1ID": 709750,
                     "ap2ID": 493777
                 },
                 {
