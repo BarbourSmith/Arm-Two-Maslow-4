@@ -2306,7 +2306,7 @@
             "atomType": "Molecule",
             "name": "Encoder System",
             "x": 94,
-            "y": 256,
+            "y": 254,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -2550,7 +2550,7 @@
                     "atomType": "Molecule",
                     "name": "Encoder System",
                     "x": 94,
-                    "y": 256,
+                    "y": 254,
                     "uniqueID": 395617,
                     "ioValues": []
                 },
