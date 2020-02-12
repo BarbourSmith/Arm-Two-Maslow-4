@@ -2359,8 +2359,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 551,
-                    "y": 85,
+                    "x": 570,
+                    "y": 142,
                     "uniqueID": 855341,
                     "ioValues": [
                         {
@@ -2427,6 +2427,19 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 1103,
+                    "y": 267,
+                    "uniqueID": 184685,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Filling"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1146,
@@ -2467,6 +2480,13 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
+                    "ap1ID": 414662,
+                    "ap2ID": 530196
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 413515,
                     "ap2ID": 470785
                 },
@@ -2483,13 +2503,6 @@
                     "ap2Primary": false,
                     "ap1ID": 470785,
                     "ap2ID": 855341
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 855341,
-                    "ap2ID": 530196
                 },
                 {
                     "ap1Name": "geometry",
@@ -2511,6 +2524,13 @@
                     "ap2Primary": true,
                     "ap1ID": 513405,
                     "ap2ID": 653741
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 513405,
+                    "ap2ID": 184685
                 },
                 {
                     "ap1Name": "geometry",
