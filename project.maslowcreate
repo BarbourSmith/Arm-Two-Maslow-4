@@ -1222,6 +1222,24 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Cylinder",
+                    "x": 389,
+                    "y": 271,
+                    "uniqueID": 260219,
+                    "projectID": "240615474",
+                    "ioValues": [
+                        {
+                            "name": "Width",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Height",
+                            "ioValue": 4.1
+                        }
+                    ]
+                },
+                {
                     "atomType": "Color",
                     "name": "Color",
                     "x": 672,
@@ -1297,8 +1315,8 @@
         {
             "atomType": "Molecule",
             "name": "Bearings and Roller Shaft",
-            "x": 71,
-            "y": 83,
+            "x": 64,
+            "y": 80,
             "uniqueID": 414662,
             "ioValues": [],
             "topLevel": false,
@@ -1429,10 +1447,6 @@
                         {
                             "name": "3D shape 6",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 7",
-                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -1500,13 +1514,6 @@
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 731723,
-                    "ap2ID": 752881
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 7",
-                    "ap2Primary": false,
-                    "ap1ID": 911605,
                     "ap2ID": 752881
                 },
                 {
@@ -2204,7 +2211,7 @@
             "atomType": "Molecule",
             "name": "Middle Block",
             "x": 92,
-            "y": 246,
+            "y": 247,
             "uniqueID": 116302,
             "ioValues": [],
             "topLevel": false,
@@ -2314,8 +2321,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearings and Roller Shaft",
-                    "x": 71,
-                    "y": 83,
+                    "x": 64,
+                    "y": 80,
                     "uniqueID": 414662,
                     "ioValues": []
                 },
@@ -2331,7 +2338,7 @@
                     "atomType": "Molecule",
                     "name": "Middle Block",
                     "x": 92,
-                    "y": 246,
+                    "y": 247,
                     "uniqueID": 116302,
                     "ioValues": []
                 },
@@ -2599,8 +2606,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 768,
-                    "y": 46,
+                    "x": 765,
+                    "y": 50,
                     "uniqueID": 504955,
                     "ioValues": [
                         {
