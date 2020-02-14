@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 88,
-            "y": 86,
+            "x": 85,
+            "y": 85,
             "uniqueID": 715277,
             "ioValues": [],
             "topLevel": false,
@@ -117,6 +117,10 @@
                     "uniqueID": 696912,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 65
                         },
@@ -160,6 +164,10 @@
                     "uniqueID": 308954,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -180,7 +188,12 @@
                     "y": 280,
                     "uniqueID": 167250,
                     "projectID": "230192765",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rotate",
@@ -189,6 +202,10 @@
                     "y": 128,
                     "uniqueID": 408673,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -1378,6 +1395,10 @@
                     "uniqueID": 351114,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -1419,6 +1440,10 @@
                     "y": 93,
                     "uniqueID": 911605,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -1925,6 +1950,10 @@
                     "uniqueID": 714279,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "tag",
                             "ioValue": "Encoder PCB"
                         }
@@ -2350,6 +2379,10 @@
                     "uniqueID": 470785,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -2453,6 +2486,10 @@
                     "y": 167,
                     "uniqueID": 653741,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -2560,8 +2597,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Drive System",
-                    "x": 88,
-                    "y": 86,
+                    "x": 85,
+                    "y": 85,
                     "uniqueID": 715277,
                     "ioValues": []
                 },
