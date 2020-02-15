@@ -1332,8 +1332,8 @@
         {
             "atomType": "Molecule",
             "name": "Bearings and Roller Shaft",
-            "x": 64,
-            "y": 80,
+            "x": 82,
+            "y": 75,
             "uniqueID": 414662,
             "ioValues": [],
             "topLevel": false,
@@ -2350,8 +2350,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearings and Roller Shaft",
-                    "x": 64,
-                    "y": 80,
+                    "x": 82,
+                    "y": 75,
                     "uniqueID": 414662,
                     "ioValues": []
                 },
@@ -2430,8 +2430,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 889,
-                    "y": 55,
+                    "x": 887,
+                    "y": 45,
                     "uniqueID": 530196,
                     "ioValues": [
                         {
