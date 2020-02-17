@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 85,
-            "y": 85,
+            "x": 87,
+            "y": 79,
             "uniqueID": 715277,
             "ioValues": [],
             "topLevel": false,
@@ -117,10 +117,6 @@
                     "uniqueID": 696912,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 65
                         },
@@ -164,10 +160,6 @@
                     "uniqueID": 308954,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -178,20 +170,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 3.25
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Export as JSON",
-                    "x": 915,
-                    "y": 280,
-                    "uniqueID": 167250,
-                    "projectID": "230192765",
-                    "ioValues": [
-                        {
-                            "name": "Geometry",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -295,13 +273,6 @@
                     "ap2Primary": false,
                     "ap1ID": 696912,
                     "ap2ID": 878312
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 696912,
-                    "ap2ID": 167250
                 },
                 {
                     "ap1Name": "geometry",
@@ -1395,10 +1366,6 @@
                     "uniqueID": 351114,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -1950,10 +1917,6 @@
                     "uniqueID": 714279,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "tag",
                             "ioValue": "Encoder PCB"
                         }
@@ -2379,10 +2342,6 @@
                     "uniqueID": 470785,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -2486,10 +2445,6 @@
                     "y": 167,
                     "uniqueID": 653741,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -2597,8 +2552,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Drive System",
-                    "x": 85,
-                    "y": 85,
+                    "x": 87,
+                    "y": 79,
                     "uniqueID": 715277,
                     "ioValues": []
                 },
