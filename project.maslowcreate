@@ -2429,19 +2429,6 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 1106,
-                    "y": 273,
-                    "uniqueID": 184685,
-                    "ioValues": [
-                        {
-                            "name": "tag",
-                            "ioValue": "Filling"
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1146,
@@ -2529,10 +2516,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 513405,
-                    "ap2ID": 184685
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 653741
                 }
             ],
             "fileTypeVersion": 1
