@@ -1299,8 +1299,8 @@
         {
             "atomType": "Molecule",
             "name": "Bearings and Roller Shaft",
-            "x": 82,
-            "y": 75,
+            "x": 86,
+            "y": 71,
             "uniqueID": 414662,
             "ioValues": [],
             "topLevel": false,
@@ -1431,6 +1431,10 @@
                         {
                             "name": "3D shape 6",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 7",
+                            "ioValue": 10
                         }
                     ],
                     "removeCutawayGeometry": true
@@ -1498,6 +1502,13 @@
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 731723,
+                    "ap2ID": 752881
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 7",
+                    "ap2Primary": false,
+                    "ap1ID": 911605,
                     "ap2ID": 752881
                 },
                 {
@@ -2305,8 +2316,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearings and Roller Shaft",
-                    "x": 82,
-                    "y": 75,
+                    "x": 86,
+                    "y": 71,
                     "uniqueID": 414662,
                     "ioValues": []
                 },
@@ -2350,8 +2361,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 570,
-                    "y": 142,
+                    "x": 597,
+                    "y": 105,
                     "uniqueID": 855341,
                     "ioValues": [
                         {
@@ -2420,8 +2431,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 1103,
-                    "y": 267,
+                    "x": 1106,
+                    "y": 273,
                     "uniqueID": 184685,
                     "ioValues": [
                         {
@@ -2471,13 +2482,6 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 414662,
-                    "ap2ID": 530196
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 413515,
                     "ap2ID": 470785
                 },
@@ -2494,6 +2498,13 @@
                     "ap2Primary": false,
                     "ap1ID": 470785,
                     "ap2ID": 855341
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 855341,
+                    "ap2ID": 530196
                 },
                 {
                     "ap1Name": "geometry",
@@ -2522,12 +2533,6 @@
                     "ap2Primary": true,
                     "ap1ID": 513405,
                     "ap2ID": 184685
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 653741
                 }
             ],
             "fileTypeVersion": 1
