@@ -2,6 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|name|12|$0.20|https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8|
+|148ZZ Bearing|3|$15.54|https://www.mcmaster.com/7804k116|
+|Total: |15|$15.74| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $47.22
