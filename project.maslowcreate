@@ -303,8 +303,8 @@
         {
             "atomType": "Molecule",
             "name": "Hardware",
-            "x": 169,
-            "y": 243,
+            "x": 168,
+            "y": 242,
             "uniqueID": 495582,
             "ioValues": [],
             "topLevel": false,
@@ -1028,8 +1028,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Hardware",
-                    "x": 169,
-                    "y": 243,
+                    "x": 168,
+                    "y": 242,
                     "uniqueID": 495582,
                     "ioValues": []
                 },
