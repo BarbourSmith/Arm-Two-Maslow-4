@@ -418,30 +418,43 @@
         {
             "atomType": "Molecule",
             "name": "Keepout for cable",
-            "x": 0.5021961932650073,
-            "y": 0.8007662835249042,
+            "x": 0.45680819912152265,
+            "y": 0.8390804597701149,
             "uniqueID": 935597,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Shaft Length",
+                    "ioValue": 9
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.16764275256222547,
-                    "y": 0.475095785440613,
+                    "x": 0.17642752562225475,
+                    "y": 0.24137931034482757,
                     "uniqueID": 843037,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 16
                         }
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Shaft Length",
+                    "x": 0.04319180087847731,
+                    "y": 0.4137931034482759,
+                    "uniqueID": 573992,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.33528550512445093,
-                    "y": 0.4137931034482759,
+                    "x": 0.3367496339677892,
+                    "y": 0.3486590038314176,
                     "uniqueID": 533350,
                     "ioValues": [
                         {
@@ -460,10 +473,24 @@
                     "selectedColorIndex": "12"
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 0.1691068814055637,
+                    "y": 0.6896551724137931,
+                    "uniqueID": 809832,
+                    "ioValues": [
+                        {
+                            "name": "S",
+                            "ioValue": 9
+                        }
+                    ],
+                    "currentEquation": "S-2"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6859443631039532,
-                    "y": 0.4559386973180076,
+                    "x": 0.6273792093704246,
+                    "y": 0.48275862068965514,
                     "uniqueID": 137360,
                     "ioValues": [
                         {
@@ -476,7 +503,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -3.5
+                            "ioValue": 1
                         }
                     ]
                 },
@@ -497,6 +524,13 @@
                     "ap2ID": 533350
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "S",
+                    "ap2Primary": false,
+                    "ap1ID": 573992,
+                    "ap2ID": 809832
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -509,6 +543,13 @@
                     "ap2Primary": true,
                     "ap1ID": 223196,
                     "ap2ID": 137360
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "height",
+                    "ap2Primary": false,
+                    "ap1ID": 809832,
+                    "ap2ID": 533350
                 },
                 {
                     "ap1Name": "geometry",
@@ -538,7 +579,7 @@
                     "ioValues": [
                         {
                             "name": "Center Length",
-                            "ioValue": 9.5
+                            "ioValue": 9
                         }
                     ]
                 },
@@ -551,7 +592,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 9.5
+                            "ioValue": 9
                         }
                     ]
                 },
@@ -585,7 +626,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 9.5
+                            "ioValue": 9
                         }
                     ],
                     "currentEquation": "L+4"
@@ -607,7 +648,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 13.5
+                            "ioValue": 13
                         }
                     ]
                 },
@@ -628,7 +669,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 13.5
+                            "ioValue": 13
                         }
                     ]
                 },
@@ -665,10 +706,54 @@
                 {
                     "atomType": "Molecule",
                     "name": "Keepout for cable",
-                    "x": 0.5021961932650073,
-                    "y": 0.8007662835249042,
+                    "x": 0.45680819912152265,
+                    "y": 0.8390804597701149,
                     "uniqueID": 935597,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Shaft Length",
+                            "ioValue": 9
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.5907759882869692,
+                    "y": 0.842911877394636,
+                    "uniqueID": 122673,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.7284040995607614,
+                    "y": 0.8007662835249042,
+                    "uniqueID": 509867,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
@@ -699,6 +784,13 @@
                     "ap2Primary": false,
                     "ap1ID": 657880,
                     "ap2ID": 950723
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Shaft Length",
+                    "ap2Primary": false,
+                    "ap1ID": 657880,
+                    "ap2ID": 935597
                 },
                 {
                     "ap1Name": "geometry",
@@ -737,9 +829,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
+                    "ap2Name": "3D shape 4",
                     "ap2Primary": false,
-                    "ap1ID": 752881
+                    "ap1ID": 752881,
+                    "ap2ID": 509867
                 },
                 {
                     "ap1Name": "Geometry",
@@ -754,6 +847,26 @@
                     "ap2Primary": true,
                     "ap1ID": 645723,
                     "ap2ID": 909345
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 935597,
+                    "ap2ID": 122673
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 122673,
+                    "ap2ID": 509867
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 509867
                 }
             ],
             "fileTypeVersion": 1
@@ -1247,8 +1360,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 0.10761346998535871,
-            "y": 0.27586206896551724,
+            "x": 0.11054172767203513,
+            "y": 0.2796934865900383,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -1311,8 +1424,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.7101024890190336,
-                    "y": 0.22605363984674332,
+                    "x": 0.7115666178623719,
+                    "y": 0.21839080459770116,
                     "uniqueID": 653741,
                     "ioValues": [
                         {
@@ -1393,7 +1506,7 @@
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
                     "x": 0.6859443631039532,
-                    "y": 0.7547892720306513,
+                    "y": 0.7777777777777777,
                     "uniqueID": 395332,
                     "ioValues": [
                         {
@@ -1472,6 +1585,12 @@
                     "ap2Primary": true,
                     "ap1ID": 513405,
                     "ap2ID": 395332
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 653741
                 },
                 {
                     "ap1Name": "geometry",
@@ -2243,8 +2362,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Encoder System",
-                    "x": 0.10761346998535871,
-                    "y": 0.27586206896551724,
+                    "x": 0.11054172767203513,
+                    "y": 0.2796934865900383,
                     "uniqueID": 395617,
                     "ioValues": []
                 },
@@ -2285,19 +2404,6 @@
                     "y": 0.8275862068965518,
                     "uniqueID": 715277,
                     "ioValues": []
-                },
-                {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 0.6002928257686677,
-                    "y": 0.7739463601532567,
-                    "uniqueID": 723455,
-                    "ioValues": [
-                        {
-                            "name": "tag",
-                            "ioValue": "Filler"
-                        }
-                    ]
                 },
                 {
                     "atomType": "Output",
