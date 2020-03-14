@@ -2381,12 +2381,7 @@
                     "x": 0.527818448023426,
                     "y": 0.4597701149425288,
                     "uniqueID": 922785,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": ""
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Svg",
@@ -2454,12 +2449,7 @@
                     "y": 0.735632183908046,
                     "uniqueID": 280188,
                     "projectID": "247363759",
-                    "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -2584,10 +2574,18 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 0.7452415812591507,
+                    "y": 0.5555555555555556,
+                    "uniqueID": 303801,
+                    "ioValues": []
+                },
+                {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.6259150805270864,
-                    "y": 0.6513409961685823,
+                    "x": 0.6295754026354319,
+                    "y": 0.6896551724137931,
                     "uniqueID": 366394,
                     "ioValues": [
                         {
@@ -2595,14 +2593,6 @@
                             "ioValue": "Filling"
                         }
                     ]
-                },
-                {
-                    "atomType": "Stl",
-                    "name": "Stl",
-                    "x": 0.7452415812591507,
-                    "y": 0.5555555555555556,
-                    "uniqueID": 303801,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
