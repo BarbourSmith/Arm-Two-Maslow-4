@@ -1406,8 +1406,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.5541727672035139,
-                    "y": 0.367816091954023,
+                    "x": 0.568081991215227,
+                    "y": 0.3639846743295019,
                     "uniqueID": 513405,
                     "ioValues": [
                         {
@@ -1503,10 +1503,31 @@
                     ]
                 },
                 {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.7210834553440704,
+                    "y": 0.6743295019157088,
+                    "uniqueID": 459002,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Roller"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
                     "y": 0.5,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 0.8330893118594436,
+                    "y": 0.735632183908046,
+                    "uniqueID": 810112,
                     "ioValues": []
                 }
             ],
@@ -1548,6 +1569,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 513405,
+                    "ap2ID": 459002
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 653741
@@ -1572,6 +1600,13 @@
                     "ap2Primary": false,
                     "ap1ID": 530196,
                     "ap2ID": 513405
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 459002,
+                    "ap2ID": 810112
                 }
             ],
             "fileTypeVersion": 1
@@ -2368,28 +2403,8 @@
                 {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.6193265007320644,
-                    "y": 0.6206896551724138,
-                    "uniqueID": 946903,
-                    "ioValues": [
-                        {
-                            "name": "tag",
-                            "ioValue": "Roller"
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9831625183016106,
-                    "y": 0.24521072796934865,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 0.6207906295754027,
-                    "y": 0.846743295019157,
+                    "x": 0.6259150805270864,
+                    "y": 0.6513409961685823,
                     "uniqueID": 366394,
                     "ioValues": [
                         {
@@ -2397,6 +2412,21 @@
                             "ioValue": "Filling"
                         }
                     ]
+                },
+                {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 0.7452415812591507,
+                    "y": 0.5555555555555556,
+                    "uniqueID": 303801,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9831625183016106,
+                    "y": 0.24521072796934865,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -2425,13 +2455,6 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 721398,
-                    "ap2ID": 946903
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 721398,
                     "ap2ID": 366394
                 },
                 {
@@ -2440,6 +2463,13 @@
                     "ap2Primary": false,
                     "ap1ID": 715277,
                     "ap2ID": 721398
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 366394,
+                    "ap2ID": 303801
                 }
             ],
             "fileTypeVersion": 1
