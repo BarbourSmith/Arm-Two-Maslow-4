@@ -2376,6 +2376,19 @@
                     ]
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.527818448023426,
+                    "y": 0.4597701149425288,
+                    "uniqueID": 922785,
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
+                },
+                {
                     "atomType": "Svg",
                     "name": "Svg",
                     "x": 0.6859443631039532,
@@ -2414,14 +2427,6 @@
                     ]
                 },
                 {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.5439238653001465,
-                    "y": 0.7547892720306513,
-                    "uniqueID": 922785,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.43191800878477304,
@@ -2439,6 +2444,20 @@
                         {
                             "name": "zDist",
                             "ioValue": 17
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Measure Bounds",
+                    "x": 0.6749633967789165,
+                    "y": 0.735632183908046,
+                    "uniqueID": 280188,
+                    "projectID": "247363759",
+                    "ioValues": [
+                        {
+                            "name": "Shape",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -2468,6 +2487,26 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 922785,
+                    "ap2ID": 832863
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 922785
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "Shape",
+                    "ap2Primary": false,
+                    "ap1ID": 922785,
+                    "ap2ID": 280188
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 195779,
                     "ap2ID": 958301
@@ -2478,19 +2517,6 @@
                     "ap2Primary": true,
                     "ap1ID": 790962,
                     "ap2ID": 195779
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 922785,
-                    "ap2ID": 832863
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 922785
                 },
                 {
                     "ap1Name": "geometry",
