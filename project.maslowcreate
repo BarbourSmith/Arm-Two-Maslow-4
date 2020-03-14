@@ -1429,10 +1429,6 @@
                     "uniqueID": 653741,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -1492,10 +1488,6 @@
                     "y": 0.7432950191570881,
                     "uniqueID": 530196,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 65
@@ -2359,12 +2351,7 @@
             "x": 0.5329428989751098,
             "y": 0.8199233716475096,
             "uniqueID": 434683,
-            "ioValues": [
-                {
-                    "name": "Input751204",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -2383,12 +2370,75 @@
                     "uniqueID": 146740,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "tag",
                             "ioValue": "Metal Plate"
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Svg",
+                    "name": "Svg",
+                    "x": 0.6859443631039532,
+                    "y": 0.29885057471264365,
+                    "uniqueID": 832863,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.32210834553440704,
+                    "y": 0.8314176245210728,
+                    "uniqueID": 195779,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.2232796486090776,
+                    "y": 0.8697318007662835,
+                    "uniqueID": 790962,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 200
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 200
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.5439238653001465,
+                    "y": 0.7547892720306513,
+                    "uniqueID": 922785,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.43191800878477304,
+                    "y": 0.846743295019157,
+                    "uniqueID": 958301,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 17
                         }
                     ]
                 },
@@ -2407,6 +2457,47 @@
                     "ap2Primary": true,
                     "ap1ID": 650674,
                     "ap2ID": 146740
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 146740,
+                    "ap2ID": 922785
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 195779,
+                    "ap2ID": 958301
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 790962,
+                    "ap2ID": 195779
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 922785,
+                    "ap2ID": 832863
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 922785
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 958301,
+                    "ap2ID": 922785
                 }
             ],
             "fileTypeVersion": 1
@@ -2493,12 +2584,7 @@
                     "x": 0.5329428989751098,
                     "y": 0.8199233716475096,
                     "uniqueID": 434683,
-                    "ioValues": [
-                        {
-                            "name": "Input751204",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -2561,5 +2647,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "0.1"
+    "circleSegmentSize": "0.4"
 }
