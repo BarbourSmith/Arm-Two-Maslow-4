@@ -438,7 +438,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 16
+                            "ioValue": 19
                         }
                     ]
                 },
@@ -1503,37 +1503,11 @@
                     ]
                 },
                 {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 0.6859443631039532,
-                    "y": 0.7777777777777777,
-                    "uniqueID": 395332,
-                    "ioValues": [
-                        {
-                            "name": "tag",
-                            "ioValue": "Roller"
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
                     "y": 0.5,
                     "ioValues": []
-                },
-                {
-                    "atomType": "ExtractTag",
-                    "name": "Extract Tag",
-                    "x": 0.849194729136164,
-                    "y": 0.7662835249042146,
-                    "uniqueID": 605950,
-                    "ioValues": [
-                        {
-                            "name": "tag",
-                            "ioValue": "Filling"
-                        }
-                    ]
                 }
             ],
             "allConnectors": [
@@ -1571,20 +1545,6 @@
                     "ap2Primary": true,
                     "ap1ID": 513405,
                     "ap2ID": 653741
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 513405,
-                    "ap2ID": 605950
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 513405,
-                    "ap2ID": 395332
                 },
                 {
                     "ap1Name": "geometry",
@@ -2406,11 +2366,37 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.6193265007320644,
+                    "y": 0.6206896551724138,
+                    "uniqueID": 946903,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Roller"
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
+                    "x": 0.9831625183016106,
+                    "y": 0.24521072796934865,
                     "ioValues": []
+                },
+                {
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.6207906295754027,
+                    "y": 0.846743295019157,
+                    "uniqueID": 366394,
+                    "ioValues": [
+                        {
+                            "name": "tag",
+                            "ioValue": "Filling"
+                        }
+                    ]
                 }
             ],
             "allConnectors": [
@@ -2433,6 +2419,20 @@
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 721398
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 721398,
+                    "ap2ID": 946903
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 721398,
+                    "ap2ID": 366394
                 },
                 {
                     "ap1Name": "Geometry",
