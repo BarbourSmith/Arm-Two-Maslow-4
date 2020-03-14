@@ -2,12 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|name|12|$0.20|https://www.amazon.com/Amsteel-Blue-64-Rope-Strand/dp/B003YHV3E8|
-|GT2 Pulley|2|$6.71|https://www.amazon.com/ZRM-Timing-Pulley-Printer-Accessory/dp/B07L54BSXS|
-|Encoder Magnet|2|$0.19|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
-|148ZZ Bearing|3|$15.54|https://www.mcmaster.com/7804k116|
-|Roller|2|$2.00|www.example.com|
-|JST XH 6 Surface Mount Connector|2|$0.40|www.example.com|
-|Total: |23|$25.04| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $75.12
+ 3xCOG MSRP: $0.00

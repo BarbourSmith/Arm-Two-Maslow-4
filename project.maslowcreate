@@ -1353,8 +1353,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.46046852122986826,
-                    "y": 0.7279693486590038,
+                    "x": 0.43265007320644217,
+                    "y": 0.7471264367816093,
                     "uniqueID": 855341,
                     "ioValues": [
                         {
@@ -1371,8 +1371,33 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.5893118594436311,
-                    "y": 0.6896551724137931,
+                    "x": 0.7869692532942899,
+                    "y": 0.3754789272030651,
+                    "uniqueID": 653741,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 3.125
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.5307467057101025,
+                    "y": 0.7432950191570881,
                     "uniqueID": 530196,
                     "ioValues": [
                         {
@@ -1390,23 +1415,15 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.829428989751098,
-                    "y": 0.4406130268199233,
-                    "uniqueID": 653741,
+                    "atomType": "ExtractTag",
+                    "name": "Extract Tag",
+                    "x": 0.7218155197657393,
+                    "y": 0.7701149425287357,
+                    "uniqueID": 395332,
                     "ioValues": [
                         {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 3.125
+                            "name": "tag",
+                            "ioValue": "Roller"
                         }
                     ]
                 },
@@ -1483,17 +1500,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 11",
-                    "ap2Primary": false,
-                    "ap1ID": 530196,
-                    "ap2ID": 513405
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 653741,
                     "ap2ID": 605950
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 11",
+                    "ap2Primary": false,
+                    "ap1ID": 530196,
+                    "ap2ID": 513405
                 }
             ],
             "fileTypeVersion": 1
