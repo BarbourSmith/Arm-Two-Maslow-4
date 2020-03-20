@@ -563,8 +563,8 @@
         {
             "atomType": "Molecule",
             "name": "Bearings and Roller Shaft",
-            "x": 0.08784773060029283,
-            "y": 0.32567049808429116,
+            "x": 0.08711566617862372,
+            "y": 0.3409961685823755,
             "uniqueID": 414662,
             "ioValues": [],
             "topLevel": false,
@@ -1377,8 +1377,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearings and Roller Shaft",
-                    "x": 0.08784773060029283,
-                    "y": 0.32567049808429116,
+                    "x": 0.08711566617862372,
+                    "y": 0.3409961685823755,
                     "uniqueID": 414662,
                     "ioValues": []
                 },
@@ -2348,8 +2348,8 @@
         {
             "atomType": "Molecule",
             "name": "Extract Metal Part",
-            "x": 0.5329428989751098,
-            "y": 0.8199233716475096,
+            "x": 0.5146412884333822,
+            "y": 0.8045977011494253,
             "uniqueID": 434683,
             "ioValues": [],
             "topLevel": false,
@@ -2597,8 +2597,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Extract Metal Part",
-                    "x": 0.5329428989751098,
-                    "y": 0.8199233716475096,
+                    "x": 0.5146412884333822,
+                    "y": 0.8045977011494253,
                     "uniqueID": 434683,
                     "ioValues": []
                 },
