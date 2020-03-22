@@ -484,14 +484,14 @@
                             "ioValue": 9
                         }
                     ],
-                    "currentEquation": "(5.5/-2)"
+                    "currentEquation": "(5.5/-2)+(S/2)"
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6273792093704246,
+                    "x": 0.6530014641288433,
                     "y": 0.48275862068965514,
-                    "uniqueID": 137360,
+                    "uniqueID": 106805,
                     "ioValues": [
                         {
                             "name": "xDist",
@@ -499,11 +499,11 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 7
+                            "ioValue": 0
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 7
+                            "ioValue": 1.75
                         }
                     ]
                 },
@@ -542,20 +542,20 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 223196,
-                    "ap2ID": 137360
+                    "ap2ID": 106805
                 },
                 {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
                     "ap2Primary": false,
                     "ap1ID": 809832,
-                    "ap2ID": 137360
+                    "ap2ID": 106805
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 137360
+                    "ap1ID": 106805
                 }
             ],
             "fileTypeVersion": 1
@@ -2381,12 +2381,7 @@
                     "x": 0.527818448023426,
                     "y": 0.4597701149425288,
                     "uniqueID": 922785,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": ""
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Svg",
@@ -2454,12 +2449,7 @@
                     "y": 0.735632183908046,
                     "uniqueID": 280188,
                     "projectID": "247363759",
-                    "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
@@ -2673,5 +2663,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "0.4"
+    "circleSegmentSize": "5.2"
 }
