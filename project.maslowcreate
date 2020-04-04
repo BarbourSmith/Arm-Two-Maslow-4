@@ -2042,8 +2042,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 0.32650073206442165,
-            "y": 0.8697318007662835,
+            "x": 0.32210834553440704,
+            "y": 0.896551724137931,
             "uniqueID": 470627,
             "ioValues": [],
             "topLevel": false,
@@ -2079,6 +2079,15 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "12V DC Motor",
+                    "x": 0.09443631039531479,
+                    "y": 0.6934865900383141,
+                    "uniqueID": 162931,
+                    "projectID": "197010572",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.6090775988286969,
@@ -2100,19 +2109,10 @@
                     ]
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "12V DC Motor",
-                    "x": 0.27232796486090777,
-                    "y": 0.6934865900383141,
-                    "uniqueID": 162931,
-                    "projectID": "197010572",
-                    "ioValues": []
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.42313323572474376,
-                    "y": 0.7892720306513409,
+                    "x": 0.2342606149341142,
+                    "y": 0.8122605363984674,
                     "uniqueID": 598905,
                     "ioValues": [
                         {
@@ -2132,13 +2132,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.5497803806734992,
-                    "y": 0.7547892720306513,
+                    "x": 0.4062957540263543,
+                    "y": 0.7509578544061302,
                     "uniqueID": 953303,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 72
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -2146,20 +2146,41 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 20
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.6215226939970717,
+                    "y": 0.7203065134099617,
+                    "uniqueID": 198255,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 180
                         }
                     ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6734992679355783,
-                    "y": 0.7088122605363985,
+                    "x": 0.8089311859443631,
+                    "y": 0.6053639846743295,
                     "uniqueID": 633013,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 72
                         },
                         {
                             "name": "yDist",
@@ -2167,7 +2188,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -2213,6 +2234,13 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 953303,
+                    "ap2ID": 198255
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 198255,
                     "ap2ID": 633013
                 },
                 {
@@ -2227,8 +2255,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.10322108345534406,
-            "y": 0.8275862068965518,
+            "x": 0.09882869692532943,
+            "y": 0.8045977011494253,
             "uniqueID": 715277,
             "ioValues": [],
             "topLevel": false,
@@ -2399,8 +2427,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 0.32650073206442165,
-                    "y": 0.8697318007662835,
+                    "x": 0.32210834553440704,
+                    "y": 0.896551724137931,
                     "uniqueID": 470627,
                     "ioValues": []
                 },
@@ -2449,7 +2477,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 0
+                            "ioValue": -15
                         }
                     ]
                 }
@@ -2763,8 +2791,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Drive System",
-                    "x": 0.10322108345534406,
-                    "y": 0.8275862068965518,
+                    "x": 0.09882869692532943,
+                    "y": 0.8045977011494253,
                     "uniqueID": 715277,
                     "ioValues": []
                 },
@@ -2800,8 +2828,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
+                    "x": 0.9824304538799413,
+                    "y": 0.31800766283524906,
                     "ioValues": []
                 }
             ],
