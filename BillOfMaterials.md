@@ -9,7 +9,6 @@
 |148ZZ Bearing|2|$15.54|https://www.mcmaster.com/7804k116|
 |M3 x 30 Bolt|6|$0.78|https://www.mcmaster.com/92095a187|
 |Roller|1|$2.00|www.example.com|
-|JST XH 6 Surface Mount Connector|1|$0.40|www.example.com|
-|Total: |24|$42.81| |
+|Total: |23|$42.41| |
 
- 3xCOG MSRP: $128.43
+ 3xCOG MSRP: $127.23
