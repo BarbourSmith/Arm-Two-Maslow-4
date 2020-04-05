@@ -2211,8 +2211,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.2708638360175695,
-                    "y": 0.4942528735632184,
+                    "x": 0.22108345534407026,
+                    "y": 0.4482758620689655,
                     "uniqueID": 207780,
                     "ioValues": [],
                     "selectedColorIndex": "12"
@@ -2285,7 +2285,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -38
+                            "ioValue": -33
                         },
                         {
                             "name": "yDist",
@@ -3588,18 +3588,10 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Stl",
-                    "name": "Stl",
-                    "x": 0.7452415812591507,
-                    "y": 0.5555555555555556,
-                    "uniqueID": 303801,
-                    "ioValues": []
-                },
-                {
                     "atomType": "ExtractTag",
                     "name": "Extract Tag",
-                    "x": 0.6273792093704246,
-                    "y": 0.6973180076628352,
+                    "x": 0.6215226939970717,
+                    "y": 0.6896551724137931,
                     "uniqueID": 366394,
                     "ioValues": [
                         {
@@ -3607,6 +3599,14 @@
                             "ioValue": "Filling"
                         }
                     ]
+                },
+                {
+                    "atomType": "Stl",
+                    "name": "Stl",
+                    "x": 0.7452415812591507,
+                    "y": 0.5555555555555556,
+                    "uniqueID": 303801,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -3677,5 +3677,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": "1.9"
+    "circleSegmentSize": "2.2"
 }
