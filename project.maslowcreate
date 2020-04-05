@@ -1457,7 +1457,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 20.625
+                            "ioValue": -3.125
                         }
                     ]
                 },
@@ -1979,10 +1979,6 @@
                         {
                             "name": "3D shape 9",
                             "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 10",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -2021,13 +2017,6 @@
                     "ap2Name": "3D shape 5",
                     "ap2Primary": false,
                     "ap1ID": 297103,
-                    "ap2ID": 493777
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 10",
-                    "ap2Primary": false,
-                    "ap1ID": 495582,
                     "ap2ID": 493777
                 },
                 {
@@ -2395,14 +2384,6 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.18740849194729137,
-                    "y": 0.6628352490421456,
-                    "uniqueID": 230753,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.6090775988286969,
@@ -2429,6 +2410,14 @@
                     "x": 0.0849194729136164,
                     "y": 0.7701149425287357,
                     "uniqueID": 181747,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.21156661786237188,
+                    "y": 0.7471264367816093,
+                    "uniqueID": 230753,
                     "ioValues": []
                 },
                 {
@@ -2550,8 +2539,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.09882869692532943,
-            "y": 0.8045977011494253,
+            "x": 0.1068814055636896,
+            "y": 0.8352490421455938,
             "uniqueID": 715277,
             "ioValues": [],
             "topLevel": false,
@@ -3086,8 +3075,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Drive System",
-                    "x": 0.09882869692532943,
-                    "y": 0.8045977011494253,
+                    "x": 0.1068814055636896,
+                    "y": 0.8352490421455938,
                     "uniqueID": 715277,
                     "ioValues": []
                 },
