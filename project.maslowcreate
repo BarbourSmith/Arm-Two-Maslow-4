@@ -2226,7 +2226,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 70
+                            "ioValue": 50
                         },
                         {
                             "name": "y length",
@@ -2279,13 +2279,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.349194729136164,
-                    "y": 0.5555555555555556,
+                    "x": 0.34773060029282576,
+                    "y": 0.5747126436781609,
                     "uniqueID": 779077,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -35
+                            "ioValue": -38
                         },
                         {
                             "name": "yDist",
@@ -2377,8 +2377,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8418740849194729,
-                    "y": 0.4904214559386973,
+                    "x": 0.8411420204978038,
+                    "y": 0.48659003831417624,
                     "uniqueID": 825431,
                     "ioValues": [
                         {
@@ -3060,8 +3060,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive System",
-            "x": 0.10029282576866763,
-            "y": 0.8314176245210728,
+            "x": 0.10248901903367495,
+            "y": 0.8544061302681992,
             "uniqueID": 715277,
             "ioValues": [],
             "topLevel": false,
@@ -3582,8 +3582,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Drive System",
-                    "x": 0.10029282576866763,
-                    "y": 0.8314176245210728,
+                    "x": 0.10248901903367495,
+                    "y": 0.8544061302681992,
                     "uniqueID": 715277,
                     "ioValues": []
                 },
