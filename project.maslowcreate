@@ -2990,7 +2990,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Motor",
+            "name": "Motor, Hardware, and Keepout",
             "x": 0.3184480234260615,
             "y": 0.8544061302681992,
             "uniqueID": 470627,
@@ -3000,8 +3000,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.1844802342606149,
-                    "y": 0.24904214559386972,
+                    "x": 0.19838945827232798,
+                    "y": 0.20689655172413796,
                     "uniqueID": 803907,
                     "ioValues": [
                         {
@@ -3011,10 +3011,79 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "12V DC Motor",
+                    "x": 0.08711566617862372,
+                    "y": 0.4406130268199233,
+                    "uniqueID": 162931,
+                    "projectID": "197010572",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "ShrinkWrap",
+                    "name": "Shrink Wrap",
+                    "x": 0.41727672035139096,
+                    "y": 0.1992337164750958,
+                    "uniqueID": 472774,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        }
+                    ],
+                    "closedSelection": 0
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.20204978038067348,
+                    "y": 0.4406130268199233,
+                    "uniqueID": 384788,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 16
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.31698389458272325,
+                    "y": 0.42911877394636017,
+                    "uniqueID": 833073,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -2
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.2891654465592972,
-                    "y": 0.20306513409961685,
+                    "x": 0.5080527086383602,
+                    "y": 0.24521072796934865,
                     "uniqueID": 366383,
                     "ioValues": [
                         {
@@ -3026,20 +3095,11 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.3982430453879941,
-                    "y": 0.20306513409961685,
+                    "x": 0.5812591508052709,
+                    "y": 0.1685823754789272,
                     "uniqueID": 245585,
                     "ioValues": [],
                     "selectedColorIndex": "12"
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "12V DC Motor",
-                    "x": 0.08711566617862372,
-                    "y": 0.4406130268199233,
-                    "uniqueID": 162931,
-                    "projectID": "197010572",
-                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -3157,10 +3217,38 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 803907,
+                    "ap2ID": 472774
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 162931,
+                    "ap2ID": 230753
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 803907,
+                    "ap1ID": 472774,
                     "ap2ID": 366383
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 384788,
+                    "ap2ID": 833073
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 833073,
+                    "ap2ID": 472774
                 },
                 {
                     "ap1Name": "geometry",
@@ -3175,13 +3263,6 @@
                     "ap2Primary": false,
                     "ap1ID": 245585,
                     "ap2ID": 726225
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 162931,
-                    "ap2ID": 230753
                 },
                 {
                     "ap1Name": "geometry",
@@ -3217,12 +3298,6 @@
                     "ap2Primary": false,
                     "ap1ID": 198255,
                     "ap2ID": 726225
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 633013
                 }
             ],
             "fileTypeVersion": 1
@@ -3387,7 +3462,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Motor",
+                    "name": "Motor, Hardware, and Keepout",
                     "x": 0.3184480234260615,
                     "y": 0.8544061302681992,
                     "uniqueID": 470627,
