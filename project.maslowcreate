@@ -1056,6 +1056,157 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.38799414348462663,
+            "y": 0.4942528735632184,
+            "uniqueID": 637175,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.38213762811127383,
+                    "y": 0.23371647509578544,
+                    "uniqueID": 830028,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 60
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 20
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "M3x30 Bolt",
+                    "x": 0.11346998535871157,
+                    "y": 0.4597701149425288,
+                    "uniqueID": 494920,
+                    "projectID": "253144023",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.24890190336749635,
+                    "y": 0.4061302681992337,
+                    "uniqueID": 540402,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.41068814055636893,
+                    "y": 0.5440613026819924,
+                    "uniqueID": 108062,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 85
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 6
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.6017569546120058,
+                    "y": 0.39080459770114945,
+                    "uniqueID": 954159,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 830028,
+                    "ap2ID": 954159
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 494920,
+                    "ap2ID": 540402
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 540402,
+                    "ap2ID": 830028
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 540402,
+                    "ap2ID": 108062
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 108062,
+                    "ap2ID": 954159
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 954159
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Board",
             "x": 0.4019033674963397,
             "y": 0.17624521072796936,
@@ -1566,8 +1717,8 @@
                 {
                     "atomType": "Tag",
                     "name": "Add Tag",
-                    "x": 0.42313323572474376,
-                    "y": 0.21455938697318008,
+                    "x": 0.4216691068814056,
+                    "y": 0.21839080459770116,
                     "uniqueID": 711482,
                     "ioValues": [
                         {
@@ -1575,6 +1726,14 @@
                             "ioValue": "Filling"
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 0.38799414348462663,
+                    "y": 0.4942528735632184,
+                    "uniqueID": 637175,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -1587,7 +1746,7 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.568081991215227,
+                    "x": 0.5651537335285505,
                     "y": 0.3639846743295019,
                     "uniqueID": 513405,
                     "ioValues": [
@@ -1597,6 +1756,10 @@
                         },
                         {
                             "name": "3D shape 11",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 12",
                             "ioValue": 10
                         }
                     ]
@@ -1726,6 +1889,13 @@
                     "ap2Name": "3D shape 10",
                     "ap2Primary": false,
                     "ap1ID": 711482,
+                    "ap2ID": 513405
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 12",
+                    "ap2Primary": false,
+                    "ap1ID": 637175,
                     "ap2ID": 513405
                 },
                 {
@@ -2821,8 +2991,8 @@
         {
             "atomType": "Molecule",
             "name": "Motor",
-            "x": 0.3191800878477306,
-            "y": 0.9157088122605365,
+            "x": 0.3184480234260615,
+            "y": 0.8544061302681992,
             "uniqueID": 470627,
             "ioValues": [],
             "topLevel": false,
@@ -2830,8 +3000,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.22986822840409957,
-                    "y": 0.27586206896551724,
+                    "x": 0.1844802342606149,
+                    "y": 0.24904214559386972,
                     "uniqueID": 803907,
                     "ioValues": [
                         {
@@ -2843,8 +3013,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.3323572474377745,
-                    "y": 0.24904214559386972,
+                    "x": 0.2891654465592972,
+                    "y": 0.20306513409961685,
                     "uniqueID": 366383,
                     "ioValues": [
                         {
@@ -2852,6 +3022,15 @@
                             "ioValue": -30
                         }
                     ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.3982430453879941,
+                    "y": 0.20306513409961685,
+                    "uniqueID": 245585,
+                    "ioValues": [],
+                    "selectedColorIndex": "12"
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -2863,18 +3042,9 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.4494875549048316,
-                    "y": 0.3103448275862069,
-                    "uniqueID": 245585,
-                    "ioValues": [],
-                    "selectedColorIndex": "12"
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.6720351390922402,
+                    "x": 0.6669106881405564,
                     "y": 0.37164750957854403,
                     "uniqueID": 726225,
                     "ioValues": [
@@ -3000,18 +3170,18 @@
                     "ap2ID": 245585
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 162931,
-                    "ap2ID": 230753
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 245585,
                     "ap2ID": 726225
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 162931,
+                    "ap2ID": 230753
                 },
                 {
                     "ap1Name": "geometry",
@@ -3218,8 +3388,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Motor",
-                    "x": 0.3191800878477306,
-                    "y": 0.9157088122605365,
+                    "x": 0.3184480234260615,
+                    "y": 0.8544061302681992,
                     "uniqueID": 470627,
                     "ioValues": []
                 },

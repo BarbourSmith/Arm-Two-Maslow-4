@@ -7,8 +7,8 @@
 |GT2 Pulley|1|$6.71|https://www.amazon.com/ZRM-Timing-Pulley-Printer-Accessory/dp/B07L54BSXS|
 |Magnet|1|$0.19|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
 |148ZZ Bearing|2|$15.54|https://www.mcmaster.com/7804k116|
-|M3 x 30 Bolt|6|$0.78|https://www.mcmaster.com/92095a187|
+|M3 x 30 Bolt|8|$1.04|https://www.mcmaster.com/92095a187|
 |Roller|1|$2.00|www.example.com|
-|Total: |23|$42.41| |
+|Total: |25|$42.67| |
 
- 3xCOG MSRP: $127.23
+ 3xCOG MSRP: $128.01
