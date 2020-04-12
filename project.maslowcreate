@@ -3647,7 +3647,12 @@
                     "x": 0.527818448023426,
                     "y": 0.4597701149425288,
                     "uniqueID": 922785,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Svg",
@@ -3715,7 +3720,12 @@
                     "y": 0.735632183908046,
                     "uniqueID": 280188,
                     "projectID": "247363759",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Shape",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
