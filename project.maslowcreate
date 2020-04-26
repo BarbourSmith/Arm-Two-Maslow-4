@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 0.09809663250366032,
-            "y": 0.2222222222222222,
+            "x": 0.09882869692532943,
+            "y": 0.24521072796934865,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -19,8 +19,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Middle Block",
-                    "x": 0.22767203513909223,
-                    "y": 0.18007662835249041,
+                    "x": 0.24377745241581258,
+                    "y": 0.1992337164750958,
                     "uniqueID": 116302,
                     "ioValues": [],
                     "topLevel": false,
@@ -397,8 +397,8 @@
                         {
                             "atomType": "Equation",
                             "name": "Equation",
-                            "x": 0.2445095168374817,
-                            "y": 0.4636015325670498,
+                            "x": 0.22986822840409957,
+                            "y": 0.42528735632183906,
                             "uniqueID": 950723,
                             "ioValues": [
                                 {
@@ -753,8 +753,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Keepout for cable",
-                            "x": 0.46266471449487556,
-                            "y": 0.8582375478927203,
+                            "x": 0.45680819912152265,
+                            "y": 0.8390804597701149,
                             "uniqueID": 935597,
                             "ioValues": [
                                 {
@@ -773,7 +773,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 17
+                                            "ioValue": 19
                                         }
                                     ]
                                 },
@@ -788,13 +788,13 @@
                                 {
                                     "atomType": "Extrude",
                                     "name": "Extrude",
-                                    "x": 0.33748169838945824,
-                                    "y": 0.3409961685823755,
+                                    "x": 0.3367496339677892,
+                                    "y": 0.3486590038314176,
                                     "uniqueID": 533350,
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 4.5
+                                            "ioValue": 5.5
                                         }
                                     ]
                                 },
@@ -806,6 +806,20 @@
                                     "uniqueID": 223196,
                                     "ioValues": [],
                                     "selectedColorIndex": "12"
+                                },
+                                {
+                                    "atomType": "Equation",
+                                    "name": "Equation",
+                                    "x": 0.18740849194729137,
+                                    "y": 0.7624521072796935,
+                                    "uniqueID": 809832,
+                                    "ioValues": [
+                                        {
+                                            "name": "S",
+                                            "ioValue": 9
+                                        }
+                                    ],
+                                    "currentEquation": "(5.5/-2)+(S/2)"
                                 },
                                 {
                                     "atomType": "Translate",
@@ -824,23 +838,9 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 2.25
+                                            "ioValue": 1.75
                                         }
                                     ]
-                                },
-                                {
-                                    "atomType": "Equation",
-                                    "name": "Equation",
-                                    "x": 0.2972181551976574,
-                                    "y": 0.8314176245210728,
-                                    "uniqueID": 809832,
-                                    "ioValues": [
-                                        {
-                                            "name": "S",
-                                            "ioValue": 9
-                                        }
-                                    ],
-                                    "currentEquation": "(4.5/-2)+(S/2)"
                                 },
                                 {
                                     "atomType": "Output",
@@ -880,17 +880,17 @@
                                     "ap2ID": 106805
                                 },
                                 {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "number or geometry",
-                                    "ap2Primary": false,
-                                    "ap1ID": 106805
-                                },
-                                {
                                     "ap1Name": "result",
                                     "ap2Name": "zDist",
                                     "ap2Primary": false,
                                     "ap1ID": 809832,
                                     "ap2ID": 106805
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 106805
                                 }
                             ],
                             "fileTypeVersion": 1
@@ -1075,7 +1075,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Extra Bolts",
+                    "name": "Molecule",
                     "x": 0.38799414348462663,
                     "y": 0.4942528735632184,
                     "uniqueID": 637175,
@@ -1223,15 +1223,6 @@
                         }
                     ],
                     "fileTypeVersion": 1
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.31698389458272325,
-                    "y": 0.5862068965517242,
-                    "uniqueID": 902880,
-                    "ioValues": [],
-                    "selectedColorIndex": 0
                 },
                 {
                     "atomType": "Assembly",
@@ -1843,8 +1834,6 @@
                     "ap1ID": 116302,
                     "ap2ID": 711482
                 },
-                null,
-                null,
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 2",
@@ -1852,8 +1841,6 @@
                     "ap1ID": 414662,
                     "ap2ID": 855341
                 },
-                null,
-                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 10",
@@ -3277,7 +3264,7 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 71
+                                    "ioValue": 72
                                 },
                                 {
                                     "name": "yDist",
