@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 0.09882869692532943,
-            "y": 0.24521072796934865,
+            "x": 0.09910802775024777,
+            "y": 0.24137931034482757,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -1907,10 +1907,31 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.36969253294289894,
+            "y": 0.4444444444444444,
+            "uniqueID": 721398,
+            "ioValues": [
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 6",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 7",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Metal Frame",
-            "x": 0.09956076134699852,
-            "y": 0.5325670498084291,
+            "x": 0.09910802775024777,
+            "y": 0.5938697318007663,
             "uniqueID": 277732,
             "ioValues": [],
             "topLevel": false,
@@ -2317,27 +2338,6 @@
                 }
             ],
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.36969253294289894,
-            "y": 0.4444444444444444,
-            "uniqueID": 721398,
-            "ioValues": [
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 6",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 7",
-                    "ioValue": 10
-                }
-            ]
         },
         {
             "atomType": "Molecule",
@@ -3776,13 +3776,6 @@
             "ap2ID": 721398
         },
         {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 4",
-            "ap2Primary": false,
-            "ap1ID": 277732,
-            "ap2ID": 721398
-        },
-        {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
@@ -3801,6 +3794,13 @@
             "ap2Primary": false,
             "ap1ID": 721398,
             "ap2ID": 434683
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 277732,
+            "ap2ID": 721398
         },
         {
             "ap1Name": "Geometry",
