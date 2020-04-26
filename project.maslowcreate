@@ -2340,19 +2340,6 @@
             ]
         },
         {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.6076134699853587,
-            "y": 0.5708812260536399,
-            "uniqueID": 366394,
-            "ioValues": [
-                {
-                    "name": "tag",
-                    "ioValue": "Filling"
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Drive System",
             "x": 0.10175695461200586,
@@ -3571,6 +3558,19 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.6076134699853587,
+            "y": 0.5862068965517242,
+            "uniqueID": 366394,
+            "ioValues": [
+                {
+                    "name": "tag",
+                    "ioValue": "Filling"
+                }
+            ]
+        },
+        {
             "atomType": "Stl",
             "name": "Stl",
             "x": 0.7452415812591507,
@@ -3803,18 +3803,18 @@
             "ap2ID": 434683
         },
         {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": false,
-            "ap1ID": 366394,
-            "ap2ID": 303801
-        },
-        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 7",
             "ap2Primary": false,
             "ap1ID": 715277,
             "ap2ID": 721398
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 366394,
+            "ap2ID": 303801
         },
         {
             "ap1Name": "Geometry",
