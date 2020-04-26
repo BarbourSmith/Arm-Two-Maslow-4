@@ -10,7 +10,7 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 0.09910802775024777,
+            "x": 0.09514370664023787,
             "y": 0.24137931034482757,
             "uniqueID": 395617,
             "ioValues": [],
@@ -337,8 +337,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearings and Roller Shaft",
-                    "x": 0.08711566617862372,
-                    "y": 0.3409961685823755,
+                    "x": 0.06937561942517344,
+                    "y": 0.3563218390804597,
                     "uniqueID": 414662,
                     "ioValues": [],
                     "topLevel": false,
@@ -773,7 +773,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 19
+                                            "ioValue": 17
                                         }
                                     ]
                                 },
@@ -794,7 +794,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 5.5
+                                            "ioValue": 4.5
                                         }
                                     ]
                                 },
@@ -810,8 +810,8 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "Equation",
-                                    "x": 0.18740849194729137,
-                                    "y": 0.7624521072796935,
+                                    "x": 0.19028741328047574,
+                                    "y": 0.7279693486590038,
                                     "uniqueID": 809832,
                                     "ioValues": [
                                         {
@@ -819,7 +819,7 @@
                                             "ioValue": 9
                                         }
                                     ],
-                                    "currentEquation": "(5.5/-2)+(S/2)"
+                                    "currentEquation": "(4.5/-2)+(S/2)+1"
                                 },
                                 {
                                     "atomType": "Translate",
@@ -838,7 +838,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 1.75
+                                            "ioValue": 3.25
                                         }
                                     ]
                                 },
@@ -1766,8 +1766,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.43265007320644217,
-                    "y": 0.7471264367816093,
+                    "x": 0.38850346878097125,
+                    "y": 0.7241379310344828,
                     "uniqueID": 855341,
                     "ioValues": [
                         {
@@ -1907,31 +1907,10 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Assembly",
-            "name": "Assembly",
-            "x": 0.36969253294289894,
-            "y": 0.4444444444444444,
-            "uniqueID": 721398,
-            "ioValues": [
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 6",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 7",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Metal Frame",
-            "x": 0.09910802775024777,
-            "y": 0.5938697318007663,
+            "x": 0.10009910802775024,
+            "y": 0.5287356321839081,
             "uniqueID": 277732,
             "ioValues": [],
             "topLevel": false,
@@ -2338,6 +2317,27 @@
                 }
             ],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.36969253294289894,
+            "y": 0.4444444444444444,
+            "uniqueID": 721398,
+            "ioValues": [
+                {
+                    "name": "3D shape 4",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 6",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 7",
+                    "ioValue": 10
+                }
+            ]
         },
         {
             "atomType": "Molecule",
@@ -3776,6 +3776,13 @@
             "ap2ID": 721398
         },
         {
+            "ap1Name": "Geometry",
+            "ap2Name": "3D shape 4",
+            "ap2Primary": false,
+            "ap1ID": 277732,
+            "ap2ID": 721398
+        },
+        {
             "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
@@ -3794,13 +3801,6 @@
             "ap2Primary": false,
             "ap1ID": 721398,
             "ap2ID": 434683
-        },
-        {
-            "ap1Name": "Geometry",
-            "ap2Name": "3D shape 4",
-            "ap2Primary": false,
-            "ap1ID": 277732,
-            "ap2ID": 721398
         },
         {
             "ap1Name": "Geometry",
