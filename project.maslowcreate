@@ -1955,6 +1955,10 @@
                         {
                             "name": "3D shape 4",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 5",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -1975,7 +1979,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": -14.126
+                            "ioValue": -4.126
                         }
                     ]
                 },
@@ -2064,6 +2068,13 @@
                     "ap2Primary": false,
                     "ap1ID": 855341,
                     "ap2ID": 513405
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 470785,
+                    "ap2ID": 855341
                 },
                 {
                     "ap1Name": "geometry",
