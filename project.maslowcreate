@@ -10,8 +10,8 @@
         {
             "atomType": "Molecule",
             "name": "Encoder System",
-            "x": 0.0981169474727453,
-            "y": 0.31800766283524906,
+            "x": 0.10029282576866763,
+            "y": 0.3333333333333333,
             "uniqueID": 395617,
             "ioValues": [],
             "topLevel": false,
@@ -1953,11 +1953,11 @@
                     "uniqueID": 855341,
                     "ioValues": [
                         {
-                            "name": "3D shape 4",
+                            "name": "3D shape 5",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 5",
+                            "name": "3D shape 6",
                             "ioValue": 10
                         }
                     ]
@@ -2043,7 +2043,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 4",
+                    "ap2Name": "3D shape 6",
                     "ap2Primary": false,
                     "ap1ID": 471165,
                     "ap2ID": 855341
@@ -2521,8 +2521,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.5490584737363726,
-            "y": 0.4061302681992337,
+            "x": 0.5461200585651537,
+            "y": 0.3984674329501916,
             "uniqueID": 462680,
             "ioValues": [
                 {
@@ -2530,6 +2530,14 @@
                     "ioValue": "PCB"
                 }
             ]
+        },
+        {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.6991215226939971,
+            "y": 0.4137931034482759,
+            "uniqueID": 651951,
+            "ioValues": []
         },
         {
             "atomType": "Molecule",
@@ -3752,8 +3760,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.5480673934588701,
-            "y": 0.6245210727969348,
+            "x": 0.5497803806734992,
+            "y": 0.6360153256704981,
             "uniqueID": 366394,
             "ioValues": [
                 {
@@ -3771,10 +3779,17 @@
             "ioValues": []
         },
         {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.9824304538799413,
+            "y": 0.31800766283524906,
+            "ioValues": []
+        },
+        {
             "atomType": "Molecule",
             "name": "Extract Metal Part",
-            "x": 0.5391476709613479,
-            "y": 0.8390804597701149,
+            "x": 0.5497803806734992,
+            "y": 0.9042145593869733,
             "uniqueID": 434683,
             "ioValues": [],
             "topLevel": false,
@@ -3944,17 +3959,10 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.9824304538799413,
-            "y": 0.31800766283524906,
-            "ioValues": []
-        },
-        {
             "atomType": "Svg",
             "name": "Svg",
-            "x": 0.705649157581764,
-            "y": 0.8620689655172414,
+            "x": 0.7020497803806734,
+            "y": 0.9080459770114941,
             "uniqueID": 996908,
             "ioValues": []
         }
@@ -4002,6 +4010,13 @@
             "ap2ID": 721398
         },
         {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 462680,
+            "ap2ID": 651951
+        },
+        {
             "ap1Name": "Geometry",
             "ap2Name": "3D shape 7",
             "ap2Primary": false,
@@ -4025,5 +4040,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "5.5"
+    "circleSegmentSize": "6.1"
 }
