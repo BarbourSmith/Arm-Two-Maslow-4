@@ -8,8 +8,7 @@
 |Magnet|1|$0.19|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
 |148ZZ Bearing|2|$15.54|https://www.mcmaster.com/7804k116|
 |M3 x 30 Bolt|8|$1.04|https://www.mcmaster.com/92095a187|
-|JST XH 6 Surface Mount Connector|1|$0.40|www.example.com|
 |Roller|1|$2.00|www.example.com|
-|Total: |26|$43.07| |
+|Total: |25|$42.67| |
 
- 3xCOG MSRP: $129.21
+ 3xCOG MSRP: $128.01
