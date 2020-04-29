@@ -1743,10 +1743,23 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.38850346878097125,
+                    "y": 0.7241379310344828,
+                    "uniqueID": 855341,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.23499267935578333,
-                    "y": 0.7777777777777777,
+                    "x": 0.24231332357247437,
+                    "y": 0.7892720306513409,
                     "uniqueID": 470785,
                     "ioValues": [
                         {
@@ -1760,19 +1773,6 @@
                         {
                             "name": "zDist",
                             "ioValue": -4.125
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.38850346878097125,
-                    "y": 0.7241379310344828,
-                    "uniqueID": 855341,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -2413,10 +2413,6 @@
                     "uniqueID": 696912,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 65
                         },
@@ -3008,10 +3004,6 @@
                                     "uniqueID": 444840,
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": ""
-                                        },
-                                        {
                                             "name": "x-axis degrees",
                                             "ioValue": 0
                                         },
@@ -3032,10 +3024,6 @@
                                     "y": 0.421455938697318,
                                     "uniqueID": 782809,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": ""
-                                        },
                                         {
                                             "name": "xDist",
                                             "ioValue": 0
@@ -3058,10 +3046,6 @@
                                     "uniqueID": 460959,
                                     "ioValues": [
                                         {
-                                            "name": "geometry",
-                                            "ioValue": ""
-                                        },
-                                        {
                                             "name": "x-axis degrees",
                                             "ioValue": 0
                                         },
@@ -3082,10 +3066,6 @@
                                     "y": 0.8160919540229885,
                                     "uniqueID": 880307,
                                     "ioValues": [
-                                        {
-                                            "name": "geometry",
-                                            "ioValue": ""
-                                        },
                                         {
                                             "name": "x-axis degrees",
                                             "ioValue": 0
@@ -3224,10 +3204,6 @@
                             "uniqueID": 598905,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
                                     "name": "x-axis degrees",
                                     "ioValue": -90
                                 },
@@ -3266,10 +3242,6 @@
                             "uniqueID": 198255,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
                                     "name": "x-axis degrees",
                                     "ioValue": 0
                                 },
@@ -3290,10 +3262,6 @@
                             "y": 0.6053639846743295,
                             "uniqueID": 633013,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
                                 {
                                     "name": "xDist",
                                     "ioValue": 71
@@ -3460,10 +3428,6 @@
                     "uniqueID": 308954,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -3491,10 +3455,6 @@
                     "y": 0.8659003831417625,
                     "uniqueID": 408673,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -3624,12 +3584,7 @@
             "x": 0.5146412884333822,
             "y": 0.8352490421455938,
             "uniqueID": 434683,
-            "ioValues": [
-                {
-                    "name": "Input751204",
-                    "ioValue": 10
-                }
-            ],
+            "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -3648,10 +3603,6 @@
                     "uniqueID": 146740,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "tag",
                             "ioValue": "Metal Plate"
                         }
@@ -3663,12 +3614,7 @@
                     "x": 0.527818448023426,
                     "y": 0.4597701149425288,
                     "uniqueID": 922785,
-                    "ioValues": [
-                        {
-                            "name": "geometry1",
-                            "ioValue": ""
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Svg",
@@ -3736,12 +3682,7 @@
                     "y": 0.735632183908046,
                     "uniqueID": 280188,
                     "projectID": "247363759",
-                    "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
