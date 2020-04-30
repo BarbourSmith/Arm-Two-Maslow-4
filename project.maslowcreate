@@ -917,8 +917,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Middle Block",
-                    "x": 0.21815519765739386,
-                    "y": 0.5823754789272031,
+                    "x": 0.2240117130307467,
+                    "y": 0.632183908045977,
                     "uniqueID": 116302,
                     "ioValues": [],
                     "topLevel": false,
@@ -1298,8 +1298,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Stand In Encoder Board",
-                    "x": 0.24231332357247437,
-                    "y": 0.8582375478927203,
+                    "x": 0.21961932650073204,
+                    "y": 0.9157088122605365,
                     "uniqueID": 413515,
                     "ioValues": [],
                     "topLevel": false,
@@ -2510,6 +2510,14 @@
                     "ioValue": "PCB"
                 }
             ]
+        },
+        {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.6947291361639825,
+            "y": 0.40229885057471265,
+            "uniqueID": 429144,
+            "ioValues": []
         },
         {
             "atomType": "Molecule",
@@ -3745,30 +3753,10 @@
         {
             "atomType": "Stl",
             "name": "Stl",
-            "x": 0.7005856515373353,
-            "y": 0.6551724137931034,
+            "x": 0.698389458272328,
+            "y": 0.6436781609195402,
             "uniqueID": 303801,
             "ioValues": []
-        },
-        {
-            "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 0.7005856515373353,
-            "y": 0.6551724137931034,
-            "uniqueID": 853475,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
         },
         {
             "atomType": "Output",
@@ -4000,6 +3988,13 @@
             "ap2Primary": false,
             "ap1ID": 277732,
             "ap2ID": 721398
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 462680,
+            "ap2ID": 429144
         },
         {
             "ap1Name": "Geometry",
