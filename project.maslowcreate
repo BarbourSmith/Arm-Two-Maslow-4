@@ -915,35 +915,10 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.5651537335285505,
-                    "y": 0.3639846743295019,
-                    "uniqueID": 513405,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 19",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 20",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 21",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 22",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Middle Block",
-                    "x": 0.22181551976573938,
-                    "y": 0.7088122605363985,
+                    "x": 0.21815519765739386,
+                    "y": 0.5823754789272031,
                     "uniqueID": 116302,
                     "ioValues": [],
                     "topLevel": false,
@@ -1260,6 +1235,31 @@
                         }
                     ],
                     "fileTypeVersion": 1
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.5651537335285505,
+                    "y": 0.3639846743295019,
+                    "uniqueID": 513405,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 19",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 20",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 21",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 22",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Tag",
@@ -2022,18 +2022,18 @@
                     "ap2ID": 513405
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 513405,
-                    "ap2ID": 175006
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 116302,
                     "ap2ID": 711482
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 513405,
+                    "ap2ID": 175006
                 },
                 {
                     "ap1Name": "geometry",
@@ -3881,12 +3881,7 @@
                     "y": 0.735632183908046,
                     "uniqueID": 280188,
                     "projectID": "247363759",
-                    "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
