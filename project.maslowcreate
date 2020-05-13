@@ -3740,8 +3740,8 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.5589692765113975,
-            "y": 0.6360153256704981,
+            "x": 0.5569871159563925,
+            "y": 0.6475095785440613,
             "uniqueID": 366394,
             "ioValues": [
                 {
@@ -3869,7 +3869,12 @@
                     "y": 0.735632183908046,
                     "uniqueID": 280188,
                     "projectID": "247363759",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Shape",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
