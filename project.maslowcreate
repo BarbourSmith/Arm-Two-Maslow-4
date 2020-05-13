@@ -1258,8 +1258,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bearings and Roller Shaft",
-                    "x": 0.21522693997071743,
-                    "y": 0.37931034482758624,
+                    "x": 0.21110009910802777,
+                    "y": 0.3831417624521073,
                     "uniqueID": 414662,
                     "ioValues": [],
                     "topLevel": false,
@@ -1674,8 +1674,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Keepout for cable",
-                            "x": 0.45680819912152265,
-                            "y": 0.8390804597701149,
+                            "x": 0.4499504459861249,
+                            "y": 0.8122605363984674,
                             "uniqueID": 935597,
                             "ioValues": [
                                 {
@@ -1715,7 +1715,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 4.5
+                                            "ioValue": 5.5
                                         }
                                     ]
                                 },
@@ -1731,8 +1731,8 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "Equation",
-                                    "x": 0.19028741328047574,
-                                    "y": 0.7279693486590038,
+                                    "x": 0.27155599603567887,
+                                    "y": 0.6781609195402298,
                                     "uniqueID": 809832,
                                     "ioValues": [
                                         {
@@ -1740,7 +1740,7 @@
                                             "ioValue": 9
                                         }
                                     ],
-                                    "currentEquation": "(4.5/-2)+(S/2)+1"
+                                    "currentEquation": "(5.5/-2)+(S/2)+1"
                                 },
                                 {
                                     "atomType": "Translate",
@@ -1759,7 +1759,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 3.25
+                                            "ioValue": 2.75
                                         }
                                     ]
                                 },
@@ -3869,12 +3869,7 @@
                     "y": 0.735632183908046,
                     "uniqueID": 280188,
                     "projectID": "247363759",
-                    "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
