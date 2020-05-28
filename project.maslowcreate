@@ -3073,19 +3073,6 @@
                             "fileTypeVersion": 1
                         },
                         {
-                            "atomType": "Extrude",
-                            "name": "Extrude",
-                            "x": 0.26957383548067393,
-                            "y": 0.6475095785440613,
-                            "uniqueID": 485303,
-                            "ioValues": [
-                                {
-                                    "name": "height",
-                                    "ioValue": -1
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Translate",
                             "name": "Translate",
                             "x": 0.45534407027818447,
@@ -3098,7 +3085,7 @@
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 21
+                                    "ioValue": 19
                                 },
                                 {
                                     "name": "zDist",
@@ -3107,21 +3094,41 @@
                             ]
                         },
                         {
-                            "atomType": "Rectangle",
-                            "name": "Rectangle",
-                            "x": 0.16032210834553443,
-                            "y": 0.793103448275862,
-                            "uniqueID": 118497,
-                            "ioValues": [
+                            "atomType": "Molecule",
+                            "name": "Terminal Block",
+                            "x": 0.16325036603221083,
+                            "y": 0.7126436781609194,
+                            "uniqueID": 669444,
+                            "ioValues": [],
+                            "topLevel": false,
+                            "allAtoms": [
                                 {
-                                    "name": "x length",
-                                    "ioValue": 10
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.22035139092240116,
+                                    "y": 0.37164750957854403,
+                                    "uniqueID": 667162,
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 10
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 10
+                                        }
+                                    ]
                                 },
                                 {
-                                    "name": "y length",
-                                    "ioValue": 10
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.9853587115666179,
+                                    "y": 0.5,
+                                    "ioValues": []
                                 }
-                            ]
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1
                         },
                         {
                             "atomType": "Assembly",
@@ -3139,15 +3146,6 @@
                                     "ioValue": 10
                                 }
                             ]
-                        },
-                        {
-                            "atomType": "Color",
-                            "name": "Color",
-                            "x": 0.5043923865300146,
-                            "y": 0.7854406130268199,
-                            "uniqueID": 252879,
-                            "ioValues": [],
-                            "selectedColorIndex": "11"
                         },
                         {
                             "atomType": "Output",
@@ -3181,30 +3179,10 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 485303,
-                            "ap2ID": 252879
-                        },
-                        {
-                            "ap1Name": "geometry",
                             "ap2Name": "3D shape 3",
                             "ap2Primary": false,
                             "ap1ID": 250193,
                             "ap2ID": 759543
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 118497,
-                            "ap2ID": 485303
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 759543
                         }
                     ],
                     "fileTypeVersion": 1
@@ -3572,12 +3550,7 @@
                     "y": 0.735632183908046,
                     "uniqueID": 280188,
                     "projectID": "247363759",
-                    "ioValues": [
-                        {
-                            "name": "Shape",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Output",
