@@ -1652,7 +1652,7 @@
                                     "ioValues": [
                                         {
                                             "name": "diameter",
-                                            "ioValue": 17
+                                            "ioValue": 14
                                         }
                                     ]
                                 },
@@ -1673,7 +1673,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 5.5
+                                            "ioValue": 9
                                         }
                                     ]
                                 },
@@ -1685,20 +1685,6 @@
                                     "uniqueID": 223196,
                                     "ioValues": [],
                                     "selectedColorIndex": "12"
-                                },
-                                {
-                                    "atomType": "Equation",
-                                    "name": "Equation",
-                                    "x": 0.3557833089311859,
-                                    "y": 0.6666666666666666,
-                                    "uniqueID": 809832,
-                                    "ioValues": [
-                                        {
-                                            "name": "S",
-                                            "ioValue": 9
-                                        }
-                                    ],
-                                    "currentEquation": "(5.5/-2)+(S/2)+1"
                                 },
                                 {
                                     "atomType": "Translate",
@@ -1717,7 +1703,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 2.75
+                                            "ioValue": 0
                                         }
                                     ]
                                 },
@@ -1739,10 +1725,10 @@
                                 },
                                 {
                                     "ap1Name": "number or geometry",
-                                    "ap2Name": "S",
+                                    "ap2Name": "height",
                                     "ap2Primary": false,
                                     "ap1ID": 573992,
-                                    "ap2ID": 809832
+                                    "ap2ID": 533350
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -1756,13 +1742,6 @@
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
                                     "ap1ID": 223196,
-                                    "ap2ID": 106805
-                                },
-                                {
-                                    "ap1Name": "result",
-                                    "ap2Name": "zDist",
-                                    "ap2Primary": false,
-                                    "ap1ID": 809832,
                                     "ap2ID": 106805
                                 },
                                 {
