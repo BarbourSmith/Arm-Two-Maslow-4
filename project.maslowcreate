@@ -1265,20 +1265,6 @@
                     "topLevel": false,
                     "allAtoms": [
                         {
-                            "atomType": "GitHubMolecule",
-                            "name": "Roller",
-                            "x": 0.246705710102489,
-                            "y": 0.1685823754789272,
-                            "uniqueID": 140321,
-                            "projectID": "197579630",
-                            "ioValues": [
-                                {
-                                    "name": "Center Length",
-                                    "ioValue": 9
-                                }
-                            ]
-                        },
-                        {
                             "atomType": "Constant",
                             "name": "Shaft Length",
                             "x": 0.05051244509516837,
@@ -1295,23 +1281,16 @@
                             "max": 20
                         },
                         {
-                            "atomType": "Rotate",
-                            "name": "Rotate",
-                            "x": 0.39385065885797954,
-                            "y": 0.19157088122605365,
-                            "uniqueID": 351114,
+                            "atomType": "GitHubMolecule",
+                            "name": "Timing Belt Roller",
+                            "x": 0.35651537335285505,
+                            "y": 0.20306513409961685,
+                            "uniqueID": 835475,
+                            "projectID": "268594934",
                             "ioValues": [
                                 {
-                                    "name": "x-axis degrees",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "y-axis degrees",
-                                    "ioValue": 180
-                                },
-                                {
-                                    "name": "z-axis degrees",
-                                    "ioValue": 0
+                                    "name": "Center Height",
+                                    "ioValue": 9
                                 }
                             ]
                         },
@@ -1332,27 +1311,6 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.513909224011713,
-                            "y": 0.3639846743295019,
-                            "uniqueID": 982920,
-                            "ioValues": [
-                                {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 13
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "Translate",
-                            "name": "Translate",
                             "x": 0.3806734992679356,
                             "y": 0.5287356321839081,
                             "uniqueID": 909345,
@@ -1368,20 +1326,6 @@
                                 {
                                     "name": "zDist",
                                     "ioValue": 13
-                                }
-                            ]
-                        },
-                        {
-                            "atomType": "GitHubMolecule",
-                            "name": "Timing Belt Roller",
-                            "x": 0.15666178623718888,
-                            "y": 0.6360153256704981,
-                            "uniqueID": 835475,
-                            "projectID": "268594934",
-                            "ioValues": [
-                                {
-                                    "name": "Center Height",
-                                    "ioValue": 9
                                 }
                             ]
                         },
@@ -1564,7 +1508,7 @@
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 10",
+                                    "name": "3D shape 11",
                                     "ioValue": 10
                                 }
                             ]
@@ -1745,8 +1689,8 @@
                                 {
                                     "atomType": "Equation",
                                     "name": "Equation",
-                                    "x": 0.27155599603567887,
-                                    "y": 0.6781609195402298,
+                                    "x": 0.3557833089311859,
+                                    "y": 0.6666666666666666,
                                     "uniqueID": 809832,
                                     "ioValues": [
                                         {
@@ -1882,20 +1826,6 @@
                     ],
                     "allConnectors": [
                         {
-                            "ap1Name": "Geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 140321,
-                            "ap2ID": 351114
-                        },
-                        {
-                            "ap1Name": "number",
-                            "ap2Name": "Center Length",
-                            "ap2Primary": false,
-                            "ap1ID": 657880,
-                            "ap2ID": 140321
-                        },
-                        {
                             "ap1Name": "number",
                             "ap2Name": "L",
                             "ap2Primary": false,
@@ -1917,18 +1847,11 @@
                             "ap2ID": 835475
                         },
                         {
-                            "ap1Name": "geometry",
-                            "ap2Name": "geometry",
-                            "ap2Primary": true,
-                            "ap1ID": 351114,
-                            "ap2ID": 982920
-                        },
-                        {
-                            "ap1Name": "result",
-                            "ap2Name": "zDist",
+                            "ap1Name": "Geometry",
+                            "ap2Name": "3D shape 11",
                             "ap2Primary": false,
-                            "ap1ID": 950723,
-                            "ap2ID": 982920
+                            "ap1ID": 835475,
+                            "ap2ID": 752881
                         },
                         {
                             "ap1Name": "result",
@@ -1936,13 +1859,6 @@
                             "ap2Primary": false,
                             "ap1ID": 950723,
                             "ap2ID": 909345
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "3D shape 10",
-                            "ap2Primary": false,
-                            "ap1ID": 982920,
-                            "ap2ID": 752881
                         },
                         {
                             "ap1Name": "geometry",
