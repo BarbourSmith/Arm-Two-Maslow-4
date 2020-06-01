@@ -1318,8 +1318,8 @@
                         {
                             "atomType": "Equation",
                             "name": "Equation",
-                            "x": 0.22986822840409957,
-                            "y": 0.42528735632183906,
+                            "x": 0.30453879941434847,
+                            "y": 0.4176245210727969,
                             "uniqueID": 950723,
                             "ioValues": [
                                 {
@@ -1368,6 +1368,20 @@
                                 {
                                     "name": "zDist",
                                     "ioValue": 13
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "GitHubMolecule",
+                            "name": "Timing Belt Roller",
+                            "x": 0.15666178623718888,
+                            "y": 0.6360153256704981,
+                            "uniqueID": 835475,
+                            "projectID": "268594934",
+                            "ioValues": [
+                                {
+                                    "name": "Center Height",
+                                    "ioValue": 9
                                 }
                             ]
                         },
@@ -1894,6 +1908,13 @@
                             "ap2Primary": false,
                             "ap1ID": 657880,
                             "ap2ID": 935597
+                        },
+                        {
+                            "ap1Name": "number",
+                            "ap2Name": "Center Height",
+                            "ap2Primary": false,
+                            "ap1ID": 657880,
+                            "ap2ID": 835475
                         },
                         {
                             "ap1Name": "geometry",
