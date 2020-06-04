@@ -1273,7 +1273,7 @@
                             "ioValues": [
                                 {
                                     "name": "number",
-                                    "ioValue": 9
+                                    "ioValue": 16.125
                                 }
                             ],
                             "evolve": false,
@@ -1290,7 +1290,7 @@
                             "ioValues": [
                                 {
                                     "name": "Center Height",
-                                    "ioValue": 9
+                                    "ioValue": 16.125
                                 }
                             ]
                         },
@@ -1303,7 +1303,7 @@
                             "ioValues": [
                                 {
                                     "name": "L",
-                                    "ioValue": 9
+                                    "ioValue": 16.125
                                 }
                             ],
                             "currentEquation": "L+4"
@@ -1311,8 +1311,8 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.3806734992679356,
-                            "y": 0.5287356321839081,
+                            "x": 0.41288433382137624,
+                            "y": 0.5478927203065134,
                             "uniqueID": 909345,
                             "ioValues": [
                                 {
@@ -1325,7 +1325,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 13
+                                    "ioValue": 20.125
                                 }
                             ]
                         },
@@ -1638,7 +1638,7 @@
                             "ioValues": [
                                 {
                                     "name": "Shaft Length",
-                                    "ioValue": 9
+                                    "ioValue": 16.125
                                 }
                             ],
                             "topLevel": false,
@@ -1673,7 +1673,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 9
+                                            "ioValue": 16.125
                                         }
                                     ]
                                 },
