@@ -1273,7 +1273,7 @@
                             "ioValues": [
                                 {
                                     "name": "number",
-                                    "ioValue": 16.125
+                                    "ioValue": 10
                                 }
                             ],
                             "evolve": false,
@@ -1290,7 +1290,7 @@
                             "ioValues": [
                                 {
                                     "name": "Center Height",
-                                    "ioValue": 16.125
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -1303,7 +1303,7 @@
                             "ioValues": [
                                 {
                                     "name": "L",
-                                    "ioValue": 16.125
+                                    "ioValue": 10
                                 }
                             ],
                             "currentEquation": "L+4"
@@ -1325,7 +1325,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 20.125
+                                    "ioValue": 14
                                 }
                             ]
                         },
@@ -1390,7 +1390,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 17
+                                            "ioValue": 18
                                         }
                                     ]
                                 },
@@ -1516,8 +1516,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Bearing",
-                            "x": 0.18740849194729137,
-                            "y": 0.8735632183908046,
+                            "x": 0.23572474377745242,
+                            "y": 0.8352490421455938,
                             "uniqueID": 645723,
                             "ioValues": [],
                             "topLevel": false,
@@ -1638,7 +1638,7 @@
                             "ioValues": [
                                 {
                                     "name": "Shaft Length",
-                                    "ioValue": 16.125
+                                    "ioValue": 10
                                 }
                             ],
                             "topLevel": false,
@@ -1673,7 +1673,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 16.125
+                                            "ioValue": 10
                                         }
                                     ]
                                 },
@@ -3329,6 +3329,137 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Cutaway",
+            "x": 0.4494875549048316,
+            "y": 0.6283524904214559,
+            "uniqueID": 673533,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 0.1903367496339678,
+                    "y": 0.1992337164750958,
+                    "uniqueID": 246716,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 500
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 500
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.32210834553440704,
+                    "y": 0.14559386973180077,
+                    "uniqueID": 484964,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 250
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 250
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -250
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.49853587115666176,
+                    "y": 0.2720306513409962,
+                    "uniqueID": 643965,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 500
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Geometry",
+                    "x": 0.02489019033674963,
+                    "y": 0.6130268199233716,
+                    "uniqueID": 782487,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.6405563689604685,
+                    "y": 0.5593869731800766,
+                    "uniqueID": 713851,
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 246716,
+                    "ap2ID": 484964
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 484964,
+                    "ap2ID": 643965
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 643965,
+                    "ap2ID": 713851
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 782487,
+                    "ap2ID": 713851
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 713851
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Metal Frame",
             "x": 0.09663250366032211,
             "y": 0.7777777777777777,
@@ -3484,7 +3615,12 @@
             "x": 0.5497803806734992,
             "y": 0.9042145593869733,
             "uniqueID": 434683,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Input751204",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -3502,6 +3638,10 @@
                     "y": 0.5325670498084291,
                     "uniqueID": 146740,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": 10
+                        },
                         {
                             "name": "tag",
                             "ioValue": "Metal Plate"
@@ -3676,24 +3816,10 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 721398,
-            "ap2ID": 366394
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "Input751204",
+            "ap2Name": "Geometry",
             "ap2Primary": false,
             "ap1ID": 721398,
-            "ap2ID": 434683
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 721398,
-            "ap2ID": 462680
+            "ap2ID": 673533
         },
         {
             "ap1Name": "Geometry",
