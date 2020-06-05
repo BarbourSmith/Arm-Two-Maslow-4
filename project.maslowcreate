@@ -2264,10 +2264,23 @@
                             "ioValues": [
                                 {
                                     "name": "Thickness",
+                                    "ioValue": 5.5
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Rectangle",
+                            "name": "Rectangle",
+                            "x": 0.28770131771595897,
+                            "y": 0.6130268199233716,
+                            "uniqueID": 919333,
+                            "ioValues": [
+                                {
+                                    "name": "x length",
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "Thickness",
+                                    "name": "y length",
                                     "ioValue": 10
                                 }
                             ]
@@ -2325,10 +2338,6 @@
                             "uniqueID": 887997,
                             "projectID": "236403309",
                             "ioValues": [
-                                {
-                                    "name": "Thickness",
-                                    "ioValue": 14.5
-                                },
                                 {
                                     "name": "Thickness",
                                     "ioValue": 14.5
