@@ -1149,10 +1149,6 @@
                     "uniqueID": 878312,
                     "ioValues": [
                         {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 3",
                             "ioValue": 10
                         }
@@ -1243,13 +1239,6 @@
                     "ap2Primary": true,
                     "ap1ID": 610696,
                     "ap2ID": 130438
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 696912,
-                    "ap2ID": 878312
                 },
                 {
                     "ap1Name": "geometry",
@@ -1357,7 +1346,7 @@
                             "ioValues": [
                                 {
                                     "name": "number",
-                                    "ioValue": 10
+                                    "ioValue": 13.625
                                 }
                             ],
                             "evolve": false,
@@ -1374,7 +1363,7 @@
                             "ioValues": [
                                 {
                                     "name": "Center Height",
-                                    "ioValue": 10
+                                    "ioValue": 13.625
                                 }
                             ]
                         },
@@ -1387,7 +1376,7 @@
                             "ioValues": [
                                 {
                                     "name": "L",
-                                    "ioValue": 10
+                                    "ioValue": 13.625
                                 }
                             ],
                             "currentEquation": "L+4"
@@ -1453,7 +1442,7 @@
                                         },
                                         {
                                             "name": "zDist",
-                                            "ioValue": 18
+                                            "ioValue": 21
                                         }
                                     ]
                                 },
@@ -1572,7 +1561,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 14
+                                    "ioValue": 17.625
                                 }
                             ]
                         },
@@ -1609,11 +1598,11 @@
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 4",
+                                    "name": "3D shape 5",
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 5",
+                                    "name": "3D shape 6",
                                     "ioValue": 10
                                 }
                             ]
@@ -1743,7 +1732,7 @@
                             "ioValues": [
                                 {
                                     "name": "Shaft Length",
-                                    "ioValue": 10
+                                    "ioValue": 13.625
                                 }
                             ],
                             "topLevel": false,
@@ -1778,7 +1767,7 @@
                                     "ioValues": [
                                         {
                                             "name": "height",
-                                            "ioValue": 10
+                                            "ioValue": 13.625
                                         }
                                     ]
                                 },
@@ -1960,7 +1949,7 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "3D shape 4",
+                            "ap2Name": "3D shape 6",
                             "ap2Primary": false,
                             "ap1ID": 752881,
                             "ap2ID": 509867
@@ -3972,5 +3961,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "5.8"
+    "circleSegmentSize": "0.4"
 }
