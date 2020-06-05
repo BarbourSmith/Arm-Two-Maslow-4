@@ -470,6 +470,24 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "2GT Belt Keepout",
+                    "x": 0.671303074670571,
+                    "y": 0.3831417624521073,
+                    "uniqueID": 568623,
+                    "projectID": "269679568",
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Angle",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Motor, Hardware, and Keepout",
                     "x": 0.3096632503660322,
