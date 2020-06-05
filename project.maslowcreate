@@ -26,33 +26,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "Maslow 4 Spool2",
-                    "x": 0.06442166910688141,
-                    "y": 0.3639846743295019,
-                    "uniqueID": 761757,
-                    "projectID": "229143779",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Amsteel Blue 7/64ths",
-                    "x": 0.39311859443631036,
-                    "y": 0.16475095785440613,
-                    "uniqueID": 124130,
-                    "projectID": "236085367",
-                    "ioValues": [
-                        {
-                            "name": "Lengths",
-                            "ioValue": 60
-                        },
-                        {
-                            "name": "Angle",
-                            "ioValue": -38
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 0.3462664714494876,
@@ -74,25 +47,13 @@
                     ]
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.24890190336749635,
-                    "y": 0.4597701149425288,
-                    "uniqueID": 610696,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
+                    "atomType": "GitHubMolecule",
+                    "name": "Maslow 4 Spool2",
+                    "x": 0.13177159590043924,
+                    "y": 0.48659003831417624,
+                    "uniqueID": 761757,
+                    "projectID": "229143779",
+                    "ioValues": []
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -130,27 +91,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 1
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.39385065885797954,
-                    "y": 0.5402298850574713,
-                    "uniqueID": 130438,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 14.5
                         }
                     ]
                 },
@@ -509,10 +449,52 @@
                     "fileTypeVersion": 1
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.5980966325036603,
+                    "y": 0.6666666666666666,
+                    "uniqueID": 914664,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 7",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 8",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 10",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.8426061493411421,
+                    "y": 0.3218390804597701,
+                    "uniqueID": 878312,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Motor, Hardware, and Keepout",
-                    "x": 0.3096632503660322,
-                    "y": 0.8275862068965518,
+                    "x": 0.35431918008784774,
+                    "y": 0.9003831417624522,
                     "uniqueID": 470627,
                     "ioValues": [],
                     "topLevel": false,
@@ -1156,48 +1138,6 @@
                     "fileTypeVersion": 1
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.5980966325036603,
-                    "y": 0.6666666666666666,
-                    "uniqueID": 914664,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 4",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 7",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 8",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 9",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 0.8426061493411421,
-                    "y": 0.3218390804597701,
-                    "uniqueID": 878312,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 4",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.7181551976573939,
@@ -1256,13 +1196,6 @@
                     "ap2ID": 652571
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 761757,
-                    "ap2ID": 610696
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1270,11 +1203,11 @@
                     "ap2ID": 970276
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 610696,
-                    "ap2ID": 130438
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 10",
+                    "ap2Primary": false,
+                    "ap1ID": 761757,
+                    "ap2ID": 914664
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1288,13 +1221,6 @@
                     "ap2Name": "3D shape 8",
                     "ap2Primary": false,
                     "ap1ID": 970276,
-                    "ap2ID": 914664
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 9",
-                    "ap2Primary": false,
-                    "ap1ID": 130438,
                     "ap2ID": 914664
                 },
                 {
@@ -1319,13 +1245,6 @@
                     "ap2ID": 914664
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
-                    "ap2Primary": false,
-                    "ap1ID": 470627,
-                    "ap2ID": 914664
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1333,10 +1252,11 @@
                     "ap2ID": 308954
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 4",
                     "ap2Primary": false,
-                    "ap1ID": 878312
+                    "ap1ID": 470627,
+                    "ap2ID": 914664
                 },
                 {
                     "ap1Name": "geometry",
