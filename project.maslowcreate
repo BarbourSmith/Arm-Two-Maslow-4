@@ -56,24 +56,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "2GT Belt Keepout",
-                    "x": 0.4978038067349927,
-                    "y": 0.18773946360153254,
-                    "uniqueID": 568623,
-                    "projectID": "269679568",
-                    "ioValues": [
-                        {
-                            "name": "Length",
-                            "ioValue": 60
-                        },
-                        {
-                            "name": "Angle",
-                            "ioValue": -38
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.4853587115666179,
@@ -95,46 +77,145 @@
                     ]
                 },
                 {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 0.6310395314787701,
-                    "y": 0.2950191570881226,
-                    "uniqueID": 799140,
-                    "ioValues": [
+                    "atomType": "Molecule",
+                    "name": "Long Belt",
+                    "x": 0.6442166910688141,
+                    "y": 0.1992337164750958,
+                    "uniqueID": 599332,
+                    "ioValues": [],
+                    "topLevel": false,
+                    "allAtoms": [
                         {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.3396778916544656,
+                            "y": 0.2681992337164751,
+                            "uniqueID": 233672,
+                            "ioValues": [
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": 90
+                                }
+                            ]
                         },
                         {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
+                            "atomType": "GitHubMolecule",
+                            "name": "2GT Belt Keepout",
+                            "x": 0.12298682284040995,
+                            "y": 0.4176245210727969,
+                            "uniqueID": 134067,
+                            "projectID": "269679568",
+                            "ioValues": [
+                                {
+                                    "name": "Length",
+                                    "ioValue": 60
+                                },
+                                {
+                                    "name": "Angle",
+                                    "ioValue": -38
+                                }
+                            ]
                         },
                         {
-                            "name": "z-axis degrees",
-                            "ioValue": 90
+                            "atomType": "Molecule",
+                            "name": "Round Front Corners",
+                            "x": 0.246705710102489,
+                            "y": 0.5593869731800766,
+                            "uniqueID": 734572,
+                            "ioValues": [],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.9853587115666179,
+                                    "y": 0.5,
+                                    "ioValues": []
+                                }
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1
+                        },
+                        {
+                            "atomType": "Molecule",
+                            "name": "Change Belt Position w",
+                            "x": 0.24963396778916544,
+                            "y": 0.8045977011494253,
+                            "uniqueID": 374093,
+                            "ioValues": [],
+                            "topLevel": false,
+                            "allAtoms": [
+                                {
+                                    "atomType": "Output",
+                                    "name": "Output",
+                                    "x": 0.9853587115666179,
+                                    "y": 0.5,
+                                    "ioValues": []
+                                }
+                            ],
+                            "allConnectors": [],
+                            "fileTypeVersion": 1
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.8411420204978038,
+                            "y": 0.3486590038314176,
+                            "uniqueID": 945068,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 65
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 11.5
+                                }
+                            ]
+                        },
+                        {
+                            "atomType": "Output",
+                            "name": "Output",
+                            "x": 0.9853587115666179,
+                            "y": 0.5,
+                            "ioValues": []
                         }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.7232796486090777,
-                    "y": 0.18007662835249041,
-                    "uniqueID": 696912,
-                    "ioValues": [
+                    ],
+                    "allConnectors": [
                         {
-                            "name": "xDist",
-                            "ioValue": 65
+                            "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 233672,
+                            "ap2ID": 945068
                         },
                         {
-                            "name": "yDist",
-                            "ioValue": 0
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 134067,
+                            "ap2ID": 233672
                         },
                         {
-                            "name": "zDist",
-                            "ioValue": 11.5
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 945068
                         }
-                    ]
+                    ],
+                    "fileTypeVersion": 1
                 },
                 {
                     "atomType": "Molecule",
@@ -481,11 +562,11 @@
                     "uniqueID": 878312,
                     "ioValues": [
                         {
-                            "name": "3D shape 4",
+                            "name": "3D shape 6",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 5",
+                            "name": "3D shape 7",
                             "ioValue": 10
                         }
                     ]
@@ -1210,13 +1291,6 @@
                     "ap2ID": 914664
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 568623,
-                    "ap2ID": 799140
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 8",
                     "ap2Primary": false,
@@ -1224,17 +1298,10 @@
                     "ap2ID": 914664
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 799140,
-                    "ap2ID": 696912
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 4",
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 6",
                     "ap2Primary": false,
-                    "ap1ID": 696912,
+                    "ap1ID": 599332,
                     "ap2ID": 878312
                 },
                 {
@@ -1273,7 +1340,7 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
+                    "ap2Name": "3D shape 7",
                     "ap2Primary": false,
                     "ap1ID": 408673,
                     "ap2ID": 878312
