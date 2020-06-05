@@ -95,23 +95,20 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.6127379209370425,
-                    "y": 0.19540229885057472,
-                    "uniqueID": 696912,
+                    "atomType": "GitHubMolecule",
+                    "name": "2GT Belt Keepout",
+                    "x": 0.4978038067349927,
+                    "y": 0.18773946360153254,
+                    "uniqueID": 568623,
+                    "projectID": "269679568",
                     "ioValues": [
                         {
-                            "name": "xDist",
-                            "ioValue": 65
+                            "name": "Length",
+                            "ioValue": 60
                         },
                         {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 13
+                            "name": "Angle",
+                            "ioValue": -38
                         }
                     ]
                 },
@@ -154,6 +151,48 @@
                         {
                             "name": "zDist",
                             "ioValue": 14.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 0.6310395314787701,
+                    "y": 0.2950191570881226,
+                    "uniqueID": 799140,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.7232796486090777,
+                    "y": 0.18007662835249041,
+                    "uniqueID": 696912,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 65
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 3.5
                         }
                     ]
                 },
@@ -468,24 +507,6 @@
                         }
                     ],
                     "fileTypeVersion": 1
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "2GT Belt Keepout",
-                    "x": 0.671303074670571,
-                    "y": 0.3831417624521073,
-                    "uniqueID": 568623,
-                    "projectID": "269679568",
-                    "ioValues": [
-                        {
-                            "name": "Length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "Angle",
-                            "ioValue": 10
-                        }
-                    ]
                 },
                 {
                     "atomType": "Molecule",
@@ -1028,7 +1049,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 19
+                                    "ioValue": 18.875
                                 }
                             ]
                         },
@@ -1169,6 +1190,10 @@
                         {
                             "name": "3D shape 3",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -1238,13 +1263,6 @@
                     "ap2ID": 610696
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 124130,
-                    "ap2ID": 696912
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -1259,6 +1277,13 @@
                     "ap2ID": 130438
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 568623,
+                    "ap2ID": 799140
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 8",
                     "ap2Primary": false,
@@ -1271,6 +1296,20 @@
                     "ap2Primary": false,
                     "ap1ID": 130438,
                     "ap2ID": 914664
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 799140,
+                    "ap2ID": 696912
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 696912,
+                    "ap2ID": 878312
                 },
                 {
                     "ap1Name": "Geometry",
