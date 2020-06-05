@@ -134,6 +134,78 @@
                             "topLevel": false,
                             "allAtoms": [
                                 {
+                                    "atomType": "Rectangle",
+                                    "name": "Rectangle",
+                                    "x": 0.21742313323572474,
+                                    "y": 0.3639846743295019,
+                                    "uniqueID": 965571,
+                                    "ioValues": [
+                                        {
+                                            "name": "x length",
+                                            "ioValue": 20
+                                        },
+                                        {
+                                            "name": "y length",
+                                            "ioValue": 20
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Translate",
+                                    "name": "Translate",
+                                    "x": 0.33748169838945824,
+                                    "y": 0.43295019157088127,
+                                    "uniqueID": 212770,
+                                    "ioValues": [
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": -5
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.2225475841874085,
+                                    "y": 0.6513409961685823,
+                                    "uniqueID": 927136,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 10
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Translate",
+                                    "name": "Translate",
+                                    "x": 0.3814055636896047,
+                                    "y": 0.8007662835249042,
+                                    "uniqueID": 418011,
+                                    "ioValues": [
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 0
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Output",
                                     "name": "Output",
                                     "x": 0.9853587115666179,
@@ -141,7 +213,22 @@
                                     "ioValues": []
                                 }
                             ],
-                            "allConnectors": [],
+                            "allConnectors": [
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 927136,
+                                    "ap2ID": 212770
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 927136,
+                                    "ap2ID": 418011
+                                }
+                            ],
                             "fileTypeVersion": 1
                         },
                         {
