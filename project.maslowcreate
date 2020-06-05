@@ -2271,10 +2271,31 @@
                         {
                             "atomType": "Difference",
                             "name": "Difference",
-                            "x": 0.520497803806735,
-                            "y": 0.367816091954023,
+                            "x": 0.4480234260614934,
+                            "y": 0.2681992337164751,
                             "uniqueID": 427334,
                             "ioValues": []
+                        },
+                        {
+                            "atomType": "Translate",
+                            "name": "Translate",
+                            "x": 0.5871156661786238,
+                            "y": 0.2796934865900383,
+                            "uniqueID": 947655,
+                            "ioValues": [
+                                {
+                                    "name": "xDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "yDist",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "zDist",
+                                    "ioValue": 17.625
+                                }
+                            ]
                         },
                         {
                             "atomType": "Translate",
@@ -2328,23 +2349,15 @@
                             ]
                         },
                         {
-                            "atomType": "Translate",
-                            "name": "Translate",
-                            "x": 0.7320644216691068,
-                            "y": 0.37931034482758624,
-                            "uniqueID": 947655,
+                            "atomType": "Tag",
+                            "name": "Add Tag",
+                            "x": 0.8177159590043923,
+                            "y": 0.40229885057471265,
+                            "uniqueID": 463072,
                             "ioValues": [
                                 {
-                                    "name": "xDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "yDist",
-                                    "ioValue": 0
-                                },
-                                {
-                                    "name": "zDist",
-                                    "ioValue": 17.625
+                                    "name": "tag",
+                                    "ioValue": "Top Block"
                                 }
                             ]
                         },
@@ -2373,6 +2386,13 @@
                         },
                         {
                             "ap1Name": "geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 947655,
+                            "ap2ID": 463072
+                        },
+                        {
+                            "ap1Name": "geometry",
                             "ap2Name": "geometry2",
                             "ap2Primary": false,
                             "ap1ID": 588254,
@@ -2396,7 +2416,7 @@
                             "ap1Name": "geometry",
                             "ap2Name": "number or geometry",
                             "ap2Primary": false,
-                            "ap1ID": 947655
+                            "ap1ID": 463072
                         }
                     ],
                     "fileTypeVersion": 1
@@ -3996,10 +4016,31 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.6947291361639825,
+            "y": 0.40229885057471265,
+            "uniqueID": 429144,
+            "ioValues": []
+        },
+        {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.5569871159563925,
+            "y": 0.6475095785440613,
+            "uniqueID": 366394,
+            "ioValues": [
+                {
+                    "name": "tag",
+                    "ioValue": "Filling"
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Cutaway",
-            "x": 0.43850658857979496,
-            "y": 0.6666666666666666,
+            "x": 0.3814055636896047,
+            "y": 0.8122605363984674,
             "uniqueID": 673533,
             "ioValues": [],
             "topLevel": false,
@@ -4116,27 +4157,6 @@
                 }
             ],
             "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Svg",
-            "name": "Svg",
-            "x": 0.6947291361639825,
-            "y": 0.40229885057471265,
-            "uniqueID": 429144,
-            "ioValues": []
-        },
-        {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.5569871159563925,
-            "y": 0.6475095785440613,
-            "uniqueID": 366394,
-            "ioValues": [
-                {
-                    "name": "tag",
-                    "ioValue": "Filling"
-                }
-            ]
         },
         {
             "atomType": "Stl",
