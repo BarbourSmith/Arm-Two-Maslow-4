@@ -136,7 +136,11 @@
                                     "ioValue": 10
                                 },
                                 {
-                                    "name": "3D shape 2",
+                                    "name": "3D shape 4",
+                                    "ioValue": 10
+                                },
+                                {
+                                    "name": "3D shape 5",
                                     "ioValue": 10
                                 }
                             ]
@@ -144,8 +148,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Change Belt Position w",
-                            "x": 0.2613469985358711,
-                            "y": 0.6666666666666666,
+                            "x": 0.14202049780380674,
+                            "y": 0.6704980842911877,
                             "uniqueID": 374093,
                             "ioValues": [],
                             "topLevel": false,
@@ -159,11 +163,11 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 10
+                                            "ioValue": 8
                                         },
                                         {
                                             "name": "y length",
-                                            "ioValue": 10
+                                            "ioValue": 3
                                         }
                                     ]
                                 },
@@ -238,17 +242,17 @@
                                 {
                                     "atomType": "Translate",
                                     "name": "Translate",
-                                    "x": 0.4253294289897511,
-                                    "y": 0.6283524904214559,
+                                    "x": 0.39970717423133234,
+                                    "y": 0.632183908045977,
                                     "uniqueID": 683121,
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": -50
+                                            "ioValue": -60
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 0
+                                            "ioValue": 10
                                         },
                                         {
                                             "name": "zDist",
@@ -265,11 +269,41 @@
                                     "ioValues": [
                                         {
                                             "name": "x length",
-                                            "ioValue": 10
+                                            "ioValue": 8
                                         },
                                         {
                                             "name": "y length",
-                                            "ioValue": 40
+                                            "ioValue": 20
+                                        }
+                                    ]
+                                },
+                                {
+                                    "atomType": "Color",
+                                    "name": "Color",
+                                    "x": 0.6281112737920937,
+                                    "y": 0.43295019157088127,
+                                    "uniqueID": 854723,
+                                    "ioValues": [],
+                                    "selectedColorIndex": "12"
+                                },
+                                {
+                                    "atomType": "Translate",
+                                    "name": "Translate",
+                                    "x": 0.8045387994143485,
+                                    "y": 0.31800766283524906,
+                                    "uniqueID": 465112,
+                                    "ioValues": [
+                                        {
+                                            "name": "xDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "yDist",
+                                            "ioValue": 0
+                                        },
+                                        {
+                                            "name": "zDist",
+                                            "ioValue": 3
                                         }
                                     ]
                                 },
@@ -300,6 +334,13 @@
                                     "ap1Name": "geometry",
                                     "ap2Name": "geometry",
                                     "ap2Primary": true,
+                                    "ap1ID": 455653,
+                                    "ap2ID": 854723
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
                                     "ap1ID": 469347,
                                     "ap2ID": 683121
                                 },
@@ -316,9 +357,43 @@
                                     "ap2Primary": true,
                                     "ap1ID": 666819,
                                     "ap2ID": 469347
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "geometry",
+                                    "ap2Primary": true,
+                                    "ap1ID": 854723,
+                                    "ap2ID": 465112
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "number or geometry",
+                                    "ap2Primary": false,
+                                    "ap1ID": 465112
                                 }
                             ],
                             "fileTypeVersion": 1
+                        },
+                        {
+                            "atomType": "Rotate",
+                            "name": "Rotate",
+                            "x": 0.3513909224011713,
+                            "y": 0.7586206896551725,
+                            "uniqueID": 889418,
+                            "ioValues": [
+                                {
+                                    "name": "x-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "y-axis degrees",
+                                    "ioValue": 0
+                                },
+                                {
+                                    "name": "z-axis degrees",
+                                    "ioValue": -38
+                                }
+                            ]
                         },
                         {
                             "atomType": "Molecule",
@@ -589,7 +664,7 @@
                         },
                         {
                             "ap1Name": "geometry",
-                            "ap2Name": "3D shape 2",
+                            "ap2Name": "3D shape 5",
                             "ap2Primary": false,
                             "ap1ID": 233672,
                             "ap2ID": 944516
@@ -600,6 +675,20 @@
                             "ap2Primary": true,
                             "ap1ID": 944516,
                             "ap2ID": 945068
+                        },
+                        {
+                            "ap1Name": "Geometry",
+                            "ap2Name": "geometry",
+                            "ap2Primary": true,
+                            "ap1ID": 374093,
+                            "ap2ID": 889418
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "3D shape 4",
+                            "ap2Primary": false,
+                            "ap1ID": 889418,
+                            "ap2ID": 944516
                         },
                         {
                             "ap1Name": "Geometry",
