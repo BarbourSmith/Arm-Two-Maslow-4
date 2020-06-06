@@ -4444,6 +4444,19 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "ExtractTag",
+            "name": "Extract Tag",
+            "x": 0.5512445095168375,
+            "y": 0.13409961685823754,
+            "uniqueID": 462680,
+            "ioValues": [
+                {
+                    "name": "tag",
+                    "ioValue": "PCB"
+                }
+            ]
+        },
+        {
             "atomType": "Molecule",
             "name": "Side Cutaway",
             "x": 0.41068814055636893,
@@ -4568,15 +4581,23 @@
         {
             "atomType": "ExtractTag",
             "name": "Extract Tag",
-            "x": 0.5461200585651537,
-            "y": 0.3984674329501916,
-            "uniqueID": 462680,
+            "x": 0.5505124450951684,
+            "y": 0.39463601532567044,
+            "uniqueID": 252932,
             "ioValues": [
                 {
                     "name": "tag",
-                    "ioValue": "PCB"
+                    "ioValue": "Top Block"
                 }
             ]
+        },
+        {
+            "atomType": "Svg",
+            "name": "Svg",
+            "x": 0.698389458272328,
+            "y": 0.13793103448275862,
+            "uniqueID": 429144,
+            "ioValues": []
         },
         {
             "atomType": "Molecule",
@@ -4816,11 +4837,11 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Svg",
-            "name": "Svg",
-            "x": 0.6947291361639825,
-            "y": 0.40229885057471265,
-            "uniqueID": 429144,
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.6991215226939971,
+            "y": 0.4137931034482759,
+            "uniqueID": 577457,
             "ioValues": []
         },
         {
@@ -4850,19 +4871,6 @@
             "x": 0.9751098096632503,
             "y": 0.26053639846743293,
             "ioValues": []
-        },
-        {
-            "atomType": "ExtractTag",
-            "name": "Extract Tag",
-            "x": 0.8169838945827234,
-            "y": 0.6283524904214559,
-            "uniqueID": 252932,
-            "ioValues": [
-                {
-                    "name": "tag",
-                    "ioValue": "Tag String"
-                }
-            ]
         },
         {
             "atomType": "Molecule",
@@ -5106,6 +5114,13 @@
             "ap2Primary": false,
             "ap1ID": 462680,
             "ap2ID": 429144
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 252932,
+            "ap2ID": 577457
         },
         {
             "ap1Name": "Geometry",
