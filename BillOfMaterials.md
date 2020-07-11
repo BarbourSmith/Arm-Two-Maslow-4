@@ -4,9 +4,11 @@
  |----|----------|-----|-----|
 |DC Gear Motor|1|$16.99|https://www.amazon.com/Greartisan-Electric-Reduction-Eccentric-Diameter/dp/B0745YDSJS|
 |GT2 Pulley|1|$6.71|https://www.amazon.com/ZRM-Timing-Pulley-Printer-Accessory/dp/B07L54BSXS|
-|M3 x 30 Bolt|6|$0.78|https://www.mcmaster.com/92095a187|
+|Encoder Magnet|1|$0.19|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
+|148ZZ Bearing|2|$15.54|https://www.mcmaster.com/7804k116|
+|M3 x 30 Bolt|8|$1.04|https://www.mcmaster.com/92095a187|
 |JST XH 6 Surface Mount Connector|1|$0.40|www.example.com|
 |GT2 Belt|1|$3.00|www.example.com|
-|Total: |10|$27.88| |
+|Total: |15|$43.87| |
 
- 3xCOG MSRP: $83.64
+ 3xCOG MSRP: $131.61
