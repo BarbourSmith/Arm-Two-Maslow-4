@@ -3174,7 +3174,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 6.25
+                            "ioValue": 5.154
                         },
                         {
                             "name": "zDist",
@@ -4940,8 +4940,8 @@
         {
             "atomType": "Molecule",
             "name": "Top Cutaway",
-            "x": 0.3667642752562225,
-            "y": 0.7279693486590038,
+            "x": 0.3666997026759168,
+            "y": 0.7471264367816093,
             "uniqueID": 862909,
             "ioValues": [],
             "topLevel": false,
