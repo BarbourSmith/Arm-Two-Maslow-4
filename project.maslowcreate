@@ -3682,8 +3682,8 @@
                         {
                             "atomType": "Molecule",
                             "name": "Board Outline",
-                            "x": 0.5029282576866765,
-                            "y": 0.1724137931034483,
+                            "x": 0.5043923865300146,
+                            "y": 0.16475095785440613,
                             "uniqueID": 708271,
                             "ioValues": [],
                             "topLevel": false,
@@ -3965,11 +3965,11 @@
                                             "ioValues": [
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 75
+                                                    "ioValue": 72
                                                 },
                                                 {
                                                     "name": "yDist",
-                                                    "ioValue": 20
+                                                    "ioValue": 18
                                                 },
                                                 {
                                                     "name": "zDist",
