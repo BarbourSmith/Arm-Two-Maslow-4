@@ -4202,7 +4202,7 @@
                         {
                             "atomType": "Molecule",
                             "name": "Terminal Block",
-                            "x": 0.16325036603221083,
+                            "x": 0.16691068814055637,
                             "y": 0.7126436781609194,
                             "uniqueID": 669444,
                             "ioValues": [],
@@ -4221,7 +4221,7 @@
                                         },
                                         {
                                             "name": "y length",
-                                            "ioValue": 10
+                                            "ioValue": 8
                                         }
                                     ]
                                 },
@@ -4309,11 +4309,11 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 85
+                                    "ioValue": 75
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 17
+                                    "ioValue": 21
                                 },
                                 {
                                     "name": "zDist",
@@ -4324,8 +4324,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.7144948755490483,
-                            "y": 0.421455938697318,
+                            "x": 0.7174231332357247,
+                            "y": 0.4444444444444444,
                             "uniqueID": 898511,
                             "ioValues": [
                                 {
@@ -4539,6 +4539,12 @@
                             "ap2Primary": false,
                             "ap1ID": 490278,
                             "ap2ID": 898511
+                        },
+                        {
+                            "ap1Name": "geometry",
+                            "ap2Name": "number or geometry",
+                            "ap2Primary": false,
+                            "ap1ID": 898511
                         },
                         {
                             "ap1Name": "Geometry",
