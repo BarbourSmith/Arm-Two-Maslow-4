@@ -4187,11 +4187,11 @@
                             "ioValues": [
                                 {
                                     "name": "xDist",
-                                    "ioValue": 71
+                                    "ioValue": 62
                                 },
                                 {
                                     "name": "yDist",
-                                    "ioValue": 23
+                                    "ioValue": 30
                                 },
                                 {
                                     "name": "zDist",
@@ -4324,8 +4324,8 @@
                         {
                             "atomType": "Assembly",
                             "name": "Assembly",
-                            "x": 0.7115666178623719,
-                            "y": 0.4444444444444444,
+                            "x": 0.7144948755490483,
+                            "y": 0.421455938697318,
                             "uniqueID": 898511,
                             "ioValues": [
                                 {
