@@ -3910,23 +3910,10 @@
                                     "selectedColorIndex": "7"
                                 },
                                 {
-                                    "atomType": "Circle",
-                                    "name": "Circle",
-                                    "x": 0.41288433382137624,
-                                    "y": 0.896551724137931,
-                                    "uniqueID": 923112,
-                                    "ioValues": [
-                                        {
-                                            "name": "diameter",
-                                            "ioValue": 110
-                                        }
-                                    ]
-                                },
-                                {
                                     "atomType": "Molecule",
                                     "name": "Bump For Plug",
-                                    "x": 0.568814055636896,
-                                    "y": 0.8122605363984674,
+                                    "x": 0.5710102489019033,
+                                    "y": 0.8007662835249042,
                                     "uniqueID": 138770,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -3934,8 +3921,8 @@
                                         {
                                             "atomType": "Rectangle",
                                             "name": "Rectangle",
-                                            "x": 0.2130822596630327,
-                                            "y": 0.42911877394636017,
+                                            "x": 0.21010248901903367,
+                                            "y": 0.4137931034482759,
                                             "uniqueID": 375006,
                                             "ioValues": [
                                                 {
@@ -3944,7 +3931,7 @@
                                                 },
                                                 {
                                                     "name": "y length",
-                                                    "ioValue": 12
+                                                    "ioValue": 10
                                                 }
                                             ]
                                         },
@@ -3972,8 +3959,8 @@
                                         {
                                             "atomType": "Translate",
                                             "name": "Translate",
-                                            "x": 0.5738354806739345,
-                                            "y": 0.48275862068965514,
+                                            "x": 0.5702781844802343,
+                                            "y": 0.5019157088122606,
                                             "uniqueID": 819832,
                                             "ioValues": [
                                                 {
@@ -4021,6 +4008,19 @@
                                         }
                                     ],
                                     "fileTypeVersion": 1
+                                },
+                                {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.41288433382137624,
+                                    "y": 0.896551724137931,
+                                    "uniqueID": 923112,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 110
+                                        }
+                                    ]
                                 },
                                 {
                                     "atomType": "Extrude",
@@ -4149,18 +4149,18 @@
                                     "ap2ID": 309127
                                 },
                                 {
-                                    "ap1Name": "geometry",
-                                    "ap2Name": "3D shape 1",
-                                    "ap2Primary": false,
-                                    "ap1ID": 923112,
-                                    "ap2ID": 433933
-                                },
-                                {
                                     "ap1Name": "Geometry",
                                     "ap2Name": "3D shape 1",
                                     "ap2Primary": false,
                                     "ap1ID": 138770,
                                     "ap2ID": 694212
+                                },
+                                {
+                                    "ap1Name": "geometry",
+                                    "ap2Name": "3D shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 923112,
+                                    "ap2ID": 433933
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -4325,7 +4325,7 @@
                             "atomType": "Assembly",
                             "name": "Assembly",
                             "x": 0.7115666178623719,
-                            "y": 0.4367816091954023,
+                            "y": 0.4444444444444444,
                             "uniqueID": 898511,
                             "ioValues": [
                                 {
@@ -4402,11 +4402,11 @@
                                     "ioValues": [
                                         {
                                             "name": "xDist",
-                                            "ioValue": 76
+                                            "ioValue": 68
                                         },
                                         {
                                             "name": "yDist",
-                                            "ioValue": 21.5
+                                            "ioValue": 25
                                         },
                                         {
                                             "name": "zDist",
