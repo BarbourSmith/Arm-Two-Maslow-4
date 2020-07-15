@@ -3886,8 +3886,8 @@
                                 {
                                     "atomType": "Assembly",
                                     "name": "Assembly",
-                                    "x": 0.6828543111992071,
-                                    "y": 0.6360153256704981,
+                                    "x": 0.6822840409956076,
+                                    "y": 0.6628352490421456,
                                     "uniqueID": 694212,
                                     "ioValues": [
                                         {
@@ -3910,10 +3910,23 @@
                                     "selectedColorIndex": "7"
                                 },
                                 {
+                                    "atomType": "Circle",
+                                    "name": "Circle",
+                                    "x": 0.41288433382137624,
+                                    "y": 0.896551724137931,
+                                    "uniqueID": 923112,
+                                    "ioValues": [
+                                        {
+                                            "name": "diameter",
+                                            "ioValue": 110
+                                        }
+                                    ]
+                                },
+                                {
                                     "atomType": "Molecule",
                                     "name": "Bump For Plug",
-                                    "x": 0.5678889990089196,
-                                    "y": 0.8007662835249042,
+                                    "x": 0.568814055636896,
+                                    "y": 0.8122605363984674,
                                     "uniqueID": 138770,
                                     "ioValues": [],
                                     "topLevel": false,
@@ -3965,11 +3978,11 @@
                                             "ioValues": [
                                                 {
                                                     "name": "xDist",
-                                                    "ioValue": 72
+                                                    "ioValue": 68
                                                 },
                                                 {
                                                     "name": "yDist",
-                                                    "ioValue": 18
+                                                    "ioValue": 25
                                                 },
                                                 {
                                                     "name": "zDist",
@@ -4008,19 +4021,6 @@
                                         }
                                     ],
                                     "fileTypeVersion": 1
-                                },
-                                {
-                                    "atomType": "Circle",
-                                    "name": "Circle",
-                                    "x": 0.41288433382137624,
-                                    "y": 0.896551724137931,
-                                    "uniqueID": 923112,
-                                    "ioValues": [
-                                        {
-                                            "name": "diameter",
-                                            "ioValue": 110
-                                        }
-                                    ]
                                 },
                                 {
                                     "atomType": "Extrude",
@@ -4149,18 +4149,18 @@
                                     "ap2ID": 309127
                                 },
                                 {
-                                    "ap1Name": "Geometry",
-                                    "ap2Name": "3D shape 1",
-                                    "ap2Primary": false,
-                                    "ap1ID": 138770,
-                                    "ap2ID": 694212
-                                },
-                                {
                                     "ap1Name": "geometry",
                                     "ap2Name": "3D shape 1",
                                     "ap2Primary": false,
                                     "ap1ID": 923112,
                                     "ap2ID": 433933
+                                },
+                                {
+                                    "ap1Name": "Geometry",
+                                    "ap2Name": "3D shape 1",
+                                    "ap2Primary": false,
+                                    "ap1ID": 138770,
+                                    "ap2ID": 694212
                                 },
                                 {
                                     "ap1Name": "geometry",
@@ -4539,12 +4539,6 @@
                             "ap2Primary": false,
                             "ap1ID": 490278,
                             "ap2ID": 898511
-                        },
-                        {
-                            "ap1Name": "geometry",
-                            "ap2Name": "number or geometry",
-                            "ap2Primary": false,
-                            "ap1ID": 898511
                         },
                         {
                             "ap1Name": "Geometry",
